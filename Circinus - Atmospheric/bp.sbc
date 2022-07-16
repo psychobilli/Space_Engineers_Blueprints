@@ -1,0 +1,2031 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Circinus - Atmospheric" />
+      <DisplayName>PsychoBilli</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>106508702598159598</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="89565.27529927314" y="170029.09292740142" z="5754294.7722174972" />
+            <Forward x="0.686285257" y="-0.6287298" z="-0.365665674" />
+            <Up x="-0.454681158" y="0.0215440989" z="-0.8903936" />
+            <Orientation>
+              <X>-0.5432507</X>
+              <Y>-0.1484785</Y>
+              <Z>0.440575361</Z>
+              <W>0.6990895</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>106508702598159599</EntityId>
+              <Min x="-1" y="-1" z="0" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>70</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Connector Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>true</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+              <SubtypeName>SmallProjector</SubtypeName>
+              <EntityId>131847986512938627</EntityId>
+              <Min x="0" y="-2" z="1" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Projector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <ProjectedGrids>
+                <MyObjectBuilder_CubeGrid>
+                  <SubtypeName />
+                  <EntityId>119411017896761495</EntityId>
+                  <PersistentFlags>CastShadows InScene</PersistentFlags>
+                  <Name>119411017896761495</Name>
+                  <PositionAndOrientation>
+                    <Position x="0" y="0" z="0" />
+                    <Forward x="0.8558948" y="0.0374766" z="0.5157898" />
+                    <Up x="-0.513670444" y="-0.05388981" z="0.8562933" />
+                    <Orientation>
+                      <X>0.6382724</X>
+                      <Y>-0.5920332</Y>
+                      <Z>-0.345764756</Z>
+                      <W>0.350073934</W>
+                    </Orientation>
+                  </PositionAndOrientation>
+                  <LocalPositionAndOrientation xsi:nil="true" />
+                  <GridSizeEnum>Small</GridSizeEnum>
+                  <CubeBlocks>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
+                      <SubtypeName>SmallBlockLandingGear</SubtypeName>
+                      <EntityId>88031638414654029</EntityId>
+                      <Min x="0" y="0" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Landing Gear</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsLocked>false</IsLocked>
+                      <BrakeForce>-INF</BrakeForce>
+                      <AutoLock>true</AutoLock>
+                      <FirstLockAttempt>false</FirstLockAttempt>
+                      <LockSound>ArcShipLandGearOn</LockSound>
+                      <UnlockSound>ArcShipLandGearOff</UnlockSound>
+                      <FailedAttachSound>ArcShipLandGearNothing01</FailedAttachSound>
+                      <AttachedEntityId xsi:nil="true" />
+                      <MasterToSlave xsi:nil="true" />
+                      <GearPivotPosition xsi:nil="true" />
+                      <OtherPivot xsi:nil="true" />
+                      <LockMode>Unlocked</LockMode>
+                      <IsParkingEnabled>true</IsParkingEnabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+                      <SubtypeName>ConnectorMedium</SubtypeName>
+                      <EntityId>126921260873086490</EntityId>
+                      <Min x="-1" y="1" z="2" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <DeformationRatio>0.5</DeformationRatio>
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>1.152</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame10</TimerType>
+                              <FramesFromLastTrigger>20</FramesFromLastTrigger>
+                              <TimerTickInFrames>80</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Connector Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <MasterToSlaveTransform xsi:nil="true" />
+                      <MasterToSlaveGrid xsi:nil="true" />
+                      <IsMaster>true</IsMaster>
+                      <TradingEnabled>false</TradingEnabled>
+                      <AutoUnlockTime>0</AutoUnlockTime>
+                      <TimeOfConnection>0</TimeOfConnection>
+                      <IsParkingEnabled>false</IsParkingEnabled>
+                      <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+                      <SubtypeName>ConnectorMedium</SubtypeName>
+                      <EntityId>86544182408135115</EntityId>
+                      <Min x="-1" y="3" z="2" />
+                      <BlockOrientation Forward="Up" Up="Backward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <DeformationRatio>0.5</DeformationRatio>
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>1.152</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame10</TimerType>
+                              <FramesFromLastTrigger>40</FramesFromLastTrigger>
+                              <TimerTickInFrames>80</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Connector Dorsal</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <MasterToSlaveTransform xsi:nil="true" />
+                      <MasterToSlaveGrid xsi:nil="true" />
+                      <IsMaster>true</IsMaster>
+                      <TradingEnabled>false</TradingEnabled>
+                      <AutoUnlockTime>0</AutoUnlockTime>
+                      <TimeOfConnection>0</TimeOfConnection>
+                      <IsParkingEnabled>false</IsParkingEnabled>
+                      <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+                      <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+                      <EntityId>128345077655001478</EntityId>
+                      <Min x="0" y="2" z="-2" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Remote Control</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <UseSingleWeaponMode>false</UseSingleWeaponMode>
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots>
+                          <Slot>
+                            <Index>2</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>81669069575690507</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>6</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>SwitchLock</Action>
+                              <BlockEntityId>86544182408135115</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>7</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>SwitchLock</Action>
+                              <BlockEntityId>126921260873086490</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>8</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>OnOff</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>128345077655001478</BlockEntityId>
+                              <GroupName>Circinus Thrusters</GroupName>
+                            </Data>
+                          </Slot>
+                        </Slots>
+                        <SlotsGamepad>
+                          <Slot>
+                            <Index>0</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>OnOff</Action>
+                              <BlockEntityId>81669069575690507</BlockEntityId>
+                            </Data>
+                          </Slot>
+                        </SlotsGamepad>
+                      </Toolbar>
+                      <SelectedGunId xsi:nil="true" />
+                      <BuildToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </BuildToolbar>
+                      <OnLockedToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </OnLockedToolbar>
+                      <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+                      <PreviousControlledEntityId xsi:nil="true" />
+                      <AutoPilotEnabled>false</AutoPilotEnabled>
+                      <FlightMode>0</FlightMode>
+                      <BindedCamera>0</BindedCamera>
+                      <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+                      <Waypoints />
+                      <Direction>0</Direction>
+                      <DockingModeEnabled>false</DockingModeEnabled>
+                      <CollisionAvoidance>false</CollisionAvoidance>
+                      <Coords />
+                      <Names />
+                      <WaypointThresholdDistance>0</WaypointThresholdDistance>
+                      <IsMainRemoteControl>false</IsMainRemoteControl>
+                      <WaitForFreeWay>false</WaitForFreeWay>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>81669069575690507</EntityId>
+                      <Min x="0" y="2" z="-3" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Camera Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>1.04719758</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+                      <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+                      <EntityId>140342207046757100</EntityId>
+                      <Min x="0" y="3" z="1" />
+                      <BlockOrientation Forward="Up" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Antenna</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <BroadcastRadius>5000</BroadcastRadius>
+                      <ShowShipName>false</ShowShipName>
+                      <EnableBroadcasting>true</EnableBroadcasting>
+                      <AttachedPB>0</AttachedPB>
+                      <IgnoreAllied>false</IgnoreAllied>
+                      <IgnoreOther>true</IgnoreOther>
+                      <HudText />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+                      <EntityId>102728932324592726</EntityId>
+                      <Min x="0" y="3" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Small Battery Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>3</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+                      <EntityId>118270567941050695</EntityId>
+                      <Min x="0" y="3" z="-1" />
+                      <BlockOrientation Forward="Left" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Small Battery Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>116733741271984174</EntityId>
+                      <Min x="1" y="2" z="-1" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Reverse Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>7</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>117881335879831583</EntityId>
+                      <Min x="-1" y="2" z="1" />
+                      <BlockOrientation Forward="Up" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Down Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>9</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>123101993466306022</EntityId>
+                      <Min x="-2" y="2" z="2" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Up Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>11</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>93076558474009773</EntityId>
+                      <Min x="2" y="2" z="2" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Up Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>10</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>141254017601233798</EntityId>
+                      <Min x="1" y="2" z="1" />
+                      <BlockOrientation Forward="Up" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Down Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>8</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>99674243856381742</EntityId>
+                      <Min x="-1" y="2" z="-1" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Reverse Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>6</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>109288684868572398</EntityId>
+                      <Min x="-2" y="3" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Forward Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>12</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>72789823071501810</EntityId>
+                      <Min x="2" y="3" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Forward Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>13</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>82978585904154565</EntityId>
+                      <Min x="1" y="3" z="0" />
+                      <BlockOrientation Forward="Right" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Left Dorsal</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>14</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>135206983072486824</EntityId>
+                      <Min x="2" y="2" z="0" />
+                      <BlockOrientation Forward="Right" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Left Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>15</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>90761511128418554</EntityId>
+                      <Min x="-2" y="3" z="0" />
+                      <BlockOrientation Forward="Left" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Right Dorsal</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>16</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallThrust</SubtypeName>
+                      <EntityId>119795524338671710</EntityId>
+                      <Min x="-3" y="2" z="0" />
+                      <BlockOrientation Forward="Left" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Circinus Ion Thruster Right Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>17</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+                      <SubtypeName>SmallBlockGyro</SubtypeName>
+                      <EntityId>136464048166591925</EntityId>
+                      <Min x="-2" y="2" z="3" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Gyroscope</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+                      <SubtypeName>SmallBlockGyro</SubtypeName>
+                      <EntityId>130216349186030958</EntityId>
+                      <Min x="2" y="2" z="3" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Gyroscope 2</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+                      <SubtypeName>SmallWarhead</SubtypeName>
+                      <EntityId>95969234645016796</EntityId>
+                      <Min x="0" y="4" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Warhead Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <CountdownMs>10000</CountdownMs>
+                      <IsArmed>false</IsArmed>
+                      <IsCountingDown>false</IsCountingDown>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Warhead">
+                      <SubtypeName>SmallWarhead</SubtypeName>
+                      <EntityId>120221602984069060</EntityId>
+                      <Min x="0" y="2" z="5" />
+                      <BlockOrientation Forward="Left" Up="Backward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Warhead Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <CountdownMs>10000</CountdownMs>
+                      <IsArmed>false</IsArmed>
+                      <IsCountingDown>false</IsCountingDown>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
+                      <SubtypeName>TimerBlockSmall</SubtypeName>
+                      <EntityId>88864480379837292</EntityId>
+                      <Min x="0" y="4" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.3" />
+                      <CustomName>Circinus Timer Block</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </Toolbar>
+                      <Delay>10000</Delay>
+                      <CurrentTime>0</CurrentTime>
+                      <IsCountingDown>false</IsCountingDown>
+                      <Silent>false</Silent>
+                    </MyObjectBuilder_CubeBlock>
+                  </CubeBlocks>
+                  <ConveyorLines>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="0" y="2" z="3" />
+                      <StartDirection>Up</StartDirection>
+                      <EndPosition x="0" y="3" z="3" />
+                      <EndDirection>Down</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                  </ConveyorLines>
+                  <BlockGroups>
+                    <MyObjectBuilder_BlockGroup>
+                      <Name>Circinus Thrusters</Name>
+                      <Blocks>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>2</Y>
+                          <Z>1</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>2</Y>
+                          <Z>1</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>3</Y>
+                          <Z>3</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>3</Y>
+                          <Z>3</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>3</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>3</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>3</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>3</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                      </Blocks>
+                    </MyObjectBuilder_BlockGroup>
+                  </BlockGroups>
+                  <DisplayName>Circinus</DisplayName>
+                  <DestructibleBlocks>true</DestructibleBlocks>
+                  <CreatePhysics>false</CreatePhysics>
+                  <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                  <IsRespawnGrid>false</IsRespawnGrid>
+                  <LocalCoordSys>0</LocalCoordSys>
+                  <TargetingTargets />
+                </MyObjectBuilder_CubeGrid>
+              </ProjectedGrids>
+              <ProjectionOffset>
+                <X>0</X>
+                <Y>2</Y>
+                <Z>-5</Z>
+              </ProjectionOffset>
+              <ProjectionRotation>
+                <X>2</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </ProjectionRotation>
+              <KeepProjection>true</KeepProjection>
+              <ShowOnlyBuildable>false</ShowOnlyBuildable>
+              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+              <ProjectionsRemaining>0</ProjectionsRemaining>
+              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+              <Scale>1</Scale>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>118000557334233474</EntityId>
+              <Min x="-1" y="-1" z="2" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>40</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Connector Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>true</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>false</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="1" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>89765317976533846</EntityId>
+              <Min x="0" y="2" z="2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="3" z="1" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>77529351493507990</EntityId>
+              <Min x="0" y="3" z="2" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Small Battery Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.04871582</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>126072303061861449</EntityId>
+              <Min x="-2" y="-2" z="2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Forward Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>75104293071594816</EntityId>
+              <Min x="2" y="-2" z="2" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Forward Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>118966188081915595</EntityId>
+              <Min x="2" y="1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Up Starboard Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>136333357763800104</EntityId>
+              <Min x="-2" y="1" z="1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Up Port Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="1" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>95045235113136740</EntityId>
+              <Min x="-1" y="3" z="1" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Reverse Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>140556509250456615</EntityId>
+              <Min x="-1" y="2" z="1" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Down Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>103133933677393385</EntityId>
+              <Min x="1" y="2" z="1" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Down Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>78426008903198247</EntityId>
+              <Min x="1" y="3" z="1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Reverse Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+              <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+              <EntityId>125192812860669164</EntityId>
+              <Min x="0" y="5" z="1" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Remote Control</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>81366310842419013</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>111803040551429792</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>6</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>SwitchLock</Action>
+                      <BlockEntityId>118000557334233474</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>7</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>SwitchLock</Action>
+                      <BlockEntityId>106508702598159599</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>125192812860669164</BlockEntityId>
+                      <GroupName>Circinus Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>81366310842419013</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId xsi:nil="true" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <AutoPilotEnabled>false</AutoPilotEnabled>
+              <FlightMode>0</FlightMode>
+              <BindedCamera>0</BindedCamera>
+              <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+              <Waypoints />
+              <Direction>0</Direction>
+              <DockingModeEnabled>false</DockingModeEnabled>
+              <CollisionAvoidance>false</CollisionAvoidance>
+              <Coords />
+              <Names />
+              <WaypointThresholdDistance>0</WaypointThresholdDistance>
+              <IsMainRemoteControl>false</IsMainRemoteControl>
+              <WaitForFreeWay>false</WaitForFreeWay>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockSmallBatteryBlock</SubtypeName>
+              <EntityId>143425481094994248</EntityId>
+              <Min x="0" y="4" z="2" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Small Battery Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.04853926</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>81366310842419013</EntityId>
+              <Min x="0" y="6" z="1" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Camera Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>136483048258126183</EntityId>
+              <Min x="-2" y="0" z="1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Gyroscope Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>113614617458112690</EntityId>
+              <Min x="2" y="0" z="1" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Gyroscope Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="4" z="1" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="3" z="1" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-2" y="4" z="1" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-2" y="3" z="1" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>116115757966690603</EntityId>
+              <Min x="1" y="3" z="2" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Left Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>89354040402054247</EntityId>
+              <Min x="1" y="4" z="2" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Left Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>87091329312003001</EntityId>
+              <Min x="-3" y="3" z="2" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Right Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>141733563032385511</EntityId>
+              <Min x="-3" y="4" z="2" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Right Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>102048449158983951</EntityId>
+              <Min x="-2" y="2" z="1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Up Port Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>133122909979519125</EntityId>
+              <Min x="2" y="2" z="1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Circinus Atmospheric Thruster Up Starboard Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>14</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>88142500659405979</EntityId>
+              <Min x="-1" y="-4" z="2" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.9726414</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
+              <SubtypeName>SmallBlockLandingGear</SubtypeName>
+              <EntityId>72185485605900058</EntityId>
+              <Min x="0" y="3" z="-1" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <CustomName>Circinus Landing Gear</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsLocked>false</IsLocked>
+              <BrakeForce>-INF</BrakeForce>
+              <AutoLock>true</AutoLock>
+              <FirstLockAttempt>false</FirstLockAttempt>
+              <LockSound>ArcShipLandGearOn</LockSound>
+              <UnlockSound>ArcShipLandGearOff</UnlockSound>
+              <FailedAttachSound>ArcShipLandGearNothing01</FailedAttachSound>
+              <AttachedEntityId xsi:nil="true" />
+              <MasterToSlave xsi:nil="true" />
+              <GearPivotPosition>
+                <X>0.0018995211</X>
+                <Y>1.9756825</Y>
+                <Z>-0.7734896</Z>
+              </GearPivotPosition>
+              <OtherPivot>
+                <Position>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Position>
+                <Orientation>
+                  <PackedValue>0</PackedValue>
+                </Orientation>
+                <Matrix>
+                  <M11>1</M11>
+                  <M12>0</M12>
+                  <M13>0</M13>
+                  <M14>0</M14>
+                  <M21>0</M21>
+                  <M22>1</M22>
+                  <M23>0</M23>
+                  <M24>0</M24>
+                  <M31>0</M31>
+                  <M32>0</M32>
+                  <M33>1</M33>
+                  <M34>0</M34>
+                  <M41>0</M41>
+                  <M42>0</M42>
+                  <M43>0</M43>
+                  <M44>1</M44>
+                  <Up>
+                    <X>0</X>
+                    <Y>1</Y>
+                    <Z>0</Z>
+                  </Up>
+                  <Down>
+                    <X>-0</X>
+                    <Y>-1</Y>
+                    <Z>-0</Z>
+                  </Down>
+                  <Right>
+                    <X>1</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Right>
+                  <Left>
+                    <X>-1</X>
+                    <Y>-0</Y>
+                    <Z>-0</Z>
+                  </Left>
+                  <Forward>
+                    <X>-0</X>
+                    <Y>-0</Y>
+                    <Z>-1</Z>
+                  </Forward>
+                  <Backward>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                  </Backward>
+                  <Translation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Translation>
+                </Matrix>
+              </OtherPivot>
+              <LockMode>Unlocked</LockMode>
+              <IsParkingEnabled>true</IsParkingEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>111803040551429792</EntityId>
+              <Min x="0" y="-2" z="0" />
+              <ColorMaskHSV x="0.483333319" y="0.07" z="0.06" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Circinus Camera Down</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="1" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="0" z="2" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Circinus Thrusters</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>1</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>1</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-1</X>
+                  <Y>2</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>2</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>-1</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>-1</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>3</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>4</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-1</X>
+                  <Y>4</Y>
+                  <Z>1</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>4</Y>
+                  <Z>1</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>3</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>4</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>2</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>2</Y>
+                  <Z>2</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Circinus - Atmospheric</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198009391911</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>

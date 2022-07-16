@@ -1,0 +1,1798 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Pisces" />
+      <DisplayName>PsychoBilli</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>130448948660487300</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="89173.397422040318" y="170112.55927894398" z="5753301.0628169216" />
+            <Forward x="0.5219434" y="-0.7074229" z="-0.47657913" />
+            <Up x="-0.8291143" y="-0.289524019" z="-0.478272736" />
+            <Orientation>
+              <X>-0.50331527</X>
+              <Y>0.09156508</Y>
+              <Z>0.6256483</Z>
+              <W>0.588942945</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>93888743598906194</EntityId>
+              <Min x="-1" y="-1" z="0" />
+              <IntegrityPercent>0.967811167</IntegrityPercent>
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>70</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Connector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>true</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockMediumContainer</SubtypeName>
+              <EntityId>110720530273240792</EntityId>
+              <Min x="-1" y="-1" z="2" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Medium Cargo Container Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
+              <SubtypeName>SmallBlockConveyorConverter</SubtypeName>
+              <EntityId>121538930140938941</EntityId>
+              <Min x="-1" y="2" z="3" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+              <SubtypeName>SmallBlockDrill</SubtypeName>
+              <EntityId>96142174478529210</EntityId>
+              <Min x="-4" y="2" z="-2" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Drill Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+              <SubtypeName>SmallBlockDrill</SubtypeName>
+              <EntityId>89486446120738390</EntityId>
+              <Min x="2" y="2" z="-2" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Drill Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+              <SubtypeName>SmallBlockCockpit</SubtypeName>
+              <EntityId>93225709471926771</EntityId>
+              <Min x="-1" y="2" z="4" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_OxygenContainerObject">
+                            <SubtypeName>OxygenBottle</SubtypeName>
+                            <GasLevel>0.5199421</GasLevel>
+                            <OxygenLevel>0</OxygenLevel>
+                          </PhysicalContent>
+                          <ItemId>0</ItemId>
+                        </MyObjectBuilder_InventoryItem>
+                      </Items>
+                      <nextItemId>1</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>PIsces Cockpit</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot>0</SelectedSlot>
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                      <DefinitionId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>83059960191489830</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>6</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>93225709471926771</BlockEntityId>
+                      <GroupName>Pisces Ejectors</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>93225709471926771</BlockEntityId>
+                      <GroupName>Pisces Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                      <DefinitionId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>4</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>83059960191489830</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <PilotRelativeWorld>
+                <Position x="-0.58280760049819946" y="-1.5494900941848755" z="-2.9679129123687744" />
+                <Forward x="0.260146141" y="0.044453878" z="0.9645452" />
+                <Up x="-0.106895477" y="0.994125068" z="-0.0169866085" />
+                <Orientation>
+                  <X>-0.05192853</X>
+                  <Y>0.989735365</Y>
+                  <Z>-0.0155194057</Z>
+                  <W>-0.132236362</W>
+                </Orientation>
+              </PilotRelativeWorld>
+              <PilotGunDefinition Type="MyObjectBuilder_AutomaticRifle" Subtype="UltimateRifleGun" />
+              <IsInFirstPersonView>false</IsInFirstPersonView>
+              <OxygenLevel>1</OxygenLevel>
+              <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_Gravity</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <SelectedScript />
+                  <TextPadding>2</TextPadding>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+              <TargetData>
+                <TargetId>0</TargetId>
+                <IsTargetLocked>false</IsTargetLocked>
+                <LockingProgress>0</LockingProgress>
+              </TargetData>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>125098962687496796</EntityId>
+              <Min x="0" y="5" z="3" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>130842585579870467</EntityId>
+              <Min x="0" y="5" z="4" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockMediumContainer</SubtypeName>
+              <EntityId>99991383113492164</EntityId>
+              <Min x="-1" y="-1" z="5" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Medium Cargo Container Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>77435956790387032</EntityId>
+              <Min x="-3" y="0" z="4" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Pisces Battery Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.9817119</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>79029687704655852</EntityId>
+              <Min x="2" y="0" z="4" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Pisces Battery Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.9816976</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="2" y="3" z="4" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-2" y="3" z="4" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>83059960191489830</EntityId>
+              <Min x="0" y="3" z="2" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Pisces Camera Down</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>97166470111486885</EntityId>
+              <Min x="-2" y="-2" z="7" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Forward Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>80995473466183588</EntityId>
+              <Min x="-4" y="1" z="6" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Reverse Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>14</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>139673612324779070</EntityId>
+              <Min x="4" y="1" z="6" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Reverse Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>143936950133101592</EntityId>
+              <Min x="2" y="-2" z="7" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Forward Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>142934668572376986</EntityId>
+              <Min x="2" y="1" z="7" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Left Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>17</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>86311234748908725</EntityId>
+              <Min x="2" y="2" z="7" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Left Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>18</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>83288584719996239</EntityId>
+              <Min x="-4" y="2" z="7" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Right Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>16</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>90259812118963091</EntityId>
+              <Min x="-4" y="1" z="7" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Right Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>15</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>117992752286170982</EntityId>
+              <Min x="-2" y="-1" z="4" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>74941790368062518</EntityId>
+              <Min x="-3" y="-1" z="4" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Port 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>138674902819303675</EntityId>
+              <Min x="2" y="-1" z="4" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>95405171104190974</EntityId>
+              <Min x="3" y="-1" z="4" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Starboard 2</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>125388722235321412</EntityId>
+              <Min x="0" y="2" z="7" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Pisces Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>97755740997382023</EntityId>
+              <Min x="4" y="0" z="3" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Starboard Ventral Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>19</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>119366045204601507</EntityId>
+              <Min x="4" y="1" z="3" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Down Starboard Ventral Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>20</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>127011658800860768</EntityId>
+              <Min x="-4" y="1" z="3" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Port Ventral Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>21</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>95359399855637358</EntityId>
+              <Min x="-4" y="0" z="3" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Atmospheric Thruster Port Ventral Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>22</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorSorter">
+              <SubtypeName>SmallBlockConveyorSorter</SubtypeName>
+              <EntityId>113734579480390916</EntityId>
+              <Min x="0" y="-2" z="6" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Small Conveyor Sorter Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsWhiteList>true</IsWhiteList>
+              <DefinitionIds>
+                <SerializableDefinitionId Type="MyObjectBuilder_Ore" Subtype="Stone" />
+              </DefinitionIds>
+              <DefinitionTypes />
+              <DrainAll>false</DrainAll>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorSmall</SubtypeName>
+              <EntityId>89757996090301253</EntityId>
+              <Min x="0" y="-3" z="6" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Ejector Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>false</Enabled>
+              <ThrowOut>true</ThrowOut>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>false</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorSorter">
+              <SubtypeName>SmallBlockConveyorSorter</SubtypeName>
+              <EntityId>126751463479736212</EntityId>
+              <Min x="0" y="-2" z="3" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>PIsces Small Conveyor Sorter Mid</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsWhiteList>true</IsWhiteList>
+              <DefinitionIds>
+                <SerializableDefinitionId Type="MyObjectBuilder_Ore" Subtype="Stone" />
+              </DefinitionIds>
+              <DefinitionTypes />
+              <DrainAll>false</DrainAll>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorSorter">
+              <SubtypeName>SmallBlockConveyorSorter</SubtypeName>
+              <EntityId>81631118055488769</EntityId>
+              <Min x="0" y="-2" z="1" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Small Conveyor Sorter Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsWhiteList>true</IsWhiteList>
+              <DefinitionIds>
+                <SerializableDefinitionId Type="MyObjectBuilder_Ore" Subtype="Stone" />
+              </DefinitionIds>
+              <DefinitionTypes />
+              <DrainAll>false</DrainAll>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorSmall</SubtypeName>
+              <EntityId>136078225262474041</EntityId>
+              <Min x="0" y="-3" z="3" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Ejector Mid</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>false</Enabled>
+              <ThrowOut>true</ThrowOut>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>false</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorSmall</SubtypeName>
+              <EntityId>98198793943887702</EntityId>
+              <Min x="0" y="-3" z="1" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Pisces Ejector Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>false</Enabled>
+              <ThrowOut>true</ThrowOut>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>false</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
+              <SubtypeName>SmallAirVent</SubtypeName>
+              <EntityId>122167209790648667</EntityId>
+              <Min x="0" y="2" z="1" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Picses Air Vent</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsDepressurizing>true</IsDepressurizing>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>121029735693278523</EntityId>
+              <Min x="0" y="-2" z="7" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="0.05" z="0.46" />
+              <Owner>144115188075855897</Owner>
+              <BuiltBy>144115188075855897</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Pisces Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="1" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="0" z="2" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="0" z="4" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="0" z="5" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="1" z="3" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="2" z="3" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="3" z="3" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="3" z="4" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="4" z="3" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="4" z="4" />
+              <EndDirection>Up</EndDirection>
+              <Sections>
+                <Section Direction="Up" Length="1" />
+                <Section Direction="Backward" Length="1" />
+                <Section Direction="Down" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="1" y="3" z="3" />
+              <StartDirection>Right</StartDirection>
+              <EndPosition x="2" y="3" z="3" />
+              <EndDirection>Left</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="3" z="3" />
+              <StartDirection>Left</StartDirection>
+              <EndPosition x="-2" y="3" z="3" />
+              <EndDirection>Right</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-1" z="1" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-2" z="1" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-1" z="3" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-2" z="3" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-1" z="6" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-2" z="6" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-2" z="6" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-3" z="6" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-2" z="3" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-3" z="3" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="-2" z="1" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="-3" z="1" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+              <ConveyorLineConductivity>BACKWARD</ConveyorLineConductivity>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="1" z="1" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="2" z="1" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Pisces Thrusters</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>-1</Y>
+                  <Z>5</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-3</X>
+                  <Y>-1</Y>
+                  <Z>5</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>-1</Y>
+                  <Z>5</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>3</X>
+                  <Y>-1</Y>
+                  <Z>5</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>4</X>
+                  <Y>0</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>4</X>
+                  <Y>1</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>-1</Y>
+                  <Z>7</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>-1</Y>
+                  <Z>7</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>3</X>
+                  <Y>1</Y>
+                  <Z>7</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>3</X>
+                  <Y>2</Y>
+                  <Z>7</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>0</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>1</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>2</Y>
+                  <Z>6</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>4</X>
+                  <Y>2</Y>
+                  <Z>6</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-3</X>
+                  <Y>1</Y>
+                  <Z>7</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-3</X>
+                  <Y>2</Y>
+                  <Z>7</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Pisces Ejectors</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>-3</Y>
+                  <Z>6</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>-3</Y>
+                  <Z>3</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>0</X>
+                  <Y>-3</Y>
+                  <Z>1</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Pisces</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+          <OxygenRooms>
+            <OxygenRoom OxygenAmount="0">
+              <StartingPosition>
+                <X>-5</X>
+                <Y>-4</Y>
+                <Z>-3</Z>
+              </StartingPosition>
+            </OxygenRoom>
+          </OxygenRooms>
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198009391911</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>
