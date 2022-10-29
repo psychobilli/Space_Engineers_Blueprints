@@ -10,7 +10,7 @@
           <EntityId>123412977097982854</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="9764.4687904382881" y="45053.284320572784" z="72750.721460621644" />
+            <Position x="9764.4687904445273" y="45053.284320550054" z="72750.721460623448" />
             <Forward x="0.800012" y="0.172343224" z="-0.574698567" />
             <Up x="0.540362954" y="0.209307849" z="0.814983249" />
             <Orientation>
@@ -34,8 +34,9 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.37947607</CurrentStoredPower>
+              <CurrentStoredPower>0.37944153</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -72,6 +73,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
@@ -104,6 +106,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
@@ -135,6 +138,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
@@ -166,6 +170,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -234,6 +239,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <IsShooting>false</IsShooting>
               <IsShootingFromTerminal>false</IsShootingFromTerminal>
@@ -285,6 +291,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
@@ -317,6 +324,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
@@ -349,6 +357,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
@@ -363,6 +372,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -390,6 +400,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
@@ -413,6 +424,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
@@ -437,6 +449,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <UseSingleWeaponMode>false</UseSingleWeaponMode>
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
@@ -459,6 +472,13 @@
                 <Slots />
                 <SlotsGamepad />
               </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
               <PreviousControlledEntityId xsi:nil="true" />
               <AutoPilotEnabled>false</AutoPilotEnabled>
               <FlightMode>0</FlightMode>
@@ -509,11 +529,11 @@
               <BlockOrientation Forward="Up" Up="Backward" />
               <ColorMaskHSV x="0" y="0" z="0.04999999" />
               <BuiltBy>144115188075855875</BuiltBy>
-              <CustomName />
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <BroadcastRadius>99.9999847</BroadcastRadius>
               <HudText />
@@ -624,7 +644,7 @@
                       <Repeat>true</Repeat>
                       <TimeToEvent>0</TimeToEvent>
                       <SetTimeMinutes>0</SetTimeMinutes>
-                      <TimerEnabled>true</TimerEnabled>
+                      <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame100</TimerType>
                       <FramesFromLastTrigger>0</FramesFromLastTrigger>
@@ -639,6 +659,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
               <Enabled>true</Enabled>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -722,6 +743,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>false</Enabled>
               <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
@@ -743,6 +765,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <Radius>10</Radius>
               <ReflectorRadius>120</ReflectorRadius>
@@ -801,6 +824,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <IsActive>false</IsActive>
               <Fov>1.04719758</Fov>
@@ -846,7 +870,7 @@
                       <Repeat>true</Repeat>
                       <TimeToEvent>0</TimeToEvent>
                       <SetTimeMinutes>0</SetTimeMinutes>
-                      <TimerEnabled>false</TimerEnabled>
+                      <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame100</TimerType>
                       <FramesFromLastTrigger>0</FramesFromLastTrigger>
@@ -861,11 +885,12 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <Capacity>0</Capacity>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
-          <LinearVelocity x="-0.0160222873" y="-0.00349580124" z="0.0111868158" />
+          <LinearVelocity x="-0.0160226" y="-0.00349576771" z="0.0111868978" />
           <XMirroxPlane x="0" y="-2" z="2" />
           <DisplayName>Campaign drone red 1</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>

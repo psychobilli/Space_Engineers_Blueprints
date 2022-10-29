@@ -1,0 +1,3077 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Snow Rabbit - Mining" />
+      <DisplayName>PsychoBilli</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>117323970328270110</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="-476976.56420523545" y="220525.19408306948" z="-26552.111810628623" />
+            <Forward x="-0.2777784" y="-0.8418134" z="0.4628057" />
+            <Up x="0.8222084" y="0.0408086181" z="0.567721665" />
+            <Orientation>
+              <X>0.480935335</X>
+              <Y>0.7071804</Y>
+              <Z>0.498294115</Z>
+              <W>-0.142478511</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
+              <SubtypeName>SmallBlockLandingGear</SubtypeName>
+              <EntityId>117323970328270111</EntityId>
+              <Min x="0" y="0" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <CustomName>SnR Landing Gear</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsLocked>false</IsLocked>
+              <BrakeForce>-INF</BrakeForce>
+              <AutoLock>true</AutoLock>
+              <FirstLockAttempt>false</FirstLockAttempt>
+              <LockSound>RealShipLandGearOn</LockSound>
+              <UnlockSound>RealShipLandGearOff</UnlockSound>
+              <FailedAttachSound>RealShipLandGearNothing01</FailedAttachSound>
+              <AttachedEntityId xsi:nil="true" />
+              <MasterToSlave xsi:nil="true" />
+              <GearPivotPosition>
+                <X>0.00145399291</X>
+                <Y>-0.273519278</Y>
+                <Z>0.0244466271</Z>
+              </GearPivotPosition>
+              <OtherPivot>
+                <Position>
+                  <X>0</X>
+                  <Y>0</Y>
+                  <Z>0</Z>
+                </Position>
+                <Orientation>
+                  <PackedValue>0</PackedValue>
+                </Orientation>
+                <Matrix>
+                  <M11>1</M11>
+                  <M12>0</M12>
+                  <M13>0</M13>
+                  <M14>0</M14>
+                  <M21>0</M21>
+                  <M22>1</M22>
+                  <M23>0</M23>
+                  <M24>0</M24>
+                  <M31>0</M31>
+                  <M32>0</M32>
+                  <M33>1</M33>
+                  <M34>0</M34>
+                  <M41>0</M41>
+                  <M42>0</M42>
+                  <M43>0</M43>
+                  <M44>1</M44>
+                  <Up>
+                    <X>0</X>
+                    <Y>1</Y>
+                    <Z>0</Z>
+                  </Up>
+                  <Down>
+                    <X>-0</X>
+                    <Y>-1</Y>
+                    <Z>-0</Z>
+                  </Down>
+                  <Right>
+                    <X>1</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Right>
+                  <Left>
+                    <X>-1</X>
+                    <Y>-0</Y>
+                    <Z>-0</Z>
+                  </Left>
+                  <Forward>
+                    <X>-0</X>
+                    <Y>-0</Y>
+                    <Z>-1</Z>
+                  </Forward>
+                  <Backward>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>1</Z>
+                  </Backward>
+                  <Translation>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                  </Translation>
+                </Matrix>
+              </OtherPivot>
+              <LockMode>Unlocked</LockMode>
+              <IsParkingEnabled>true</IsParkingEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="-2" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+              <SubtypeName>SmallBlockCockpit</SubtypeName>
+              <EntityId>137529447911958527</EntityId>
+              <Min x="-1" y="3" z="-3" />
+              <IntegrityPercent>0.9811321</IntegrityPercent>
+              <BuildPercent>0.9811321</BuildPercent>
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>5</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Cockpit</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot>0</SelectedSlot>
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                      <DefinitionId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>85045690839281803</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>115951645629600017</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>5</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>Recharge</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>137529447911958527</BlockEntityId>
+                      <GroupName>SnR Batteries</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>6</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>110728808934249212</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>137529447911958527</BlockEntityId>
+                      <GroupName>SnR Atmo Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>10</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>80693312341768040</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>11</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Control</Action>
+                      <BlockEntityId>73340581837717625</BlockEntityId>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>137529447911958527</BlockEntityId>
+                      <GroupName>SnR Atmo Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <PilotRelativeWorld>
+                <Position x="-0.37808546423912048" y="-2.4812464714050293" z="-2.7898650169372559" />
+                <Forward x="0.162432328" y="0.0272886362" z="0.9863423" />
+                <Up x="0.00648674648" y="0.9995663" z="-0.0287229" />
+                <Orientation>
+                  <X>0.00440271432</X>
+                  <Y>0.99657</Y>
+                  <Z>-0.0140510416</Z>
+                  <W>-0.08143362</W>
+                </Orientation>
+              </PilotRelativeWorld>
+              <PilotGunDefinition xsi:nil="true" />
+              <IsInFirstPersonView>false</IsInFirstPersonView>
+              <OxygenLevel>1</OxygenLevel>
+              <PilotJetpackEnabled xsi:nil="true" />
+              <TextPanels>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <ContentType>SCRIPT</ContentType>
+                  <SelectedScript>TSS_Gravity</SelectedScript>
+                  <TextPadding>2</TextPadding>
+                  <CustomizeScripts>true</CustomizeScripts>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+                <MySerializedTextPanelData>
+                  <ChangeInterval>0</ChangeInterval>
+                  <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                  <FontSize>1</FontSize>
+                  <ShowText>NONE</ShowText>
+                  <FontColor>
+                    <PackedValue>4294967295</PackedValue>
+                    <X>255</X>
+                    <Y>255</Y>
+                    <Z>255</Z>
+                    <R>255</R>
+                    <G>255</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </FontColor>
+                  <BackgroundColor>
+                    <PackedValue>4278190080</PackedValue>
+                    <X>0</X>
+                    <Y>0</Y>
+                    <Z>0</Z>
+                    <R>0</R>
+                    <G>0</G>
+                    <B>0</B>
+                    <A>255</A>
+                  </BackgroundColor>
+                  <CurrentShownTexture>0</CurrentShownTexture>
+                  <SelectedScript />
+                  <TextPadding>2</TextPadding>
+                  <ScriptBackgroundColor>
+                    <PackedValue>4288108544</PackedValue>
+                    <X>0</X>
+                    <Y>88</Y>
+                    <Z>151</Z>
+                    <R>0</R>
+                    <G>88</G>
+                    <B>151</B>
+                    <A>255</A>
+                  </ScriptBackgroundColor>
+                  <ScriptForegroundColor>
+                    <PackedValue>4294962611</PackedValue>
+                    <X>179</X>
+                    <Y>237</Y>
+                    <Z>255</Z>
+                    <R>179</R>
+                    <G>237</G>
+                    <B>255</B>
+                    <A>255</A>
+                  </ScriptForegroundColor>
+                  <Sprites>
+                    <Length>0</Length>
+                  </Sprites>
+                </MySerializedTextPanelData>
+              </TextPanels>
+              <TargetData>
+                <TargetId>0</TargetId>
+                <IsTargetLocked>false</IsTargetLocked>
+                <LockingProgress>0</LockingProgress>
+              </TargetData>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-1" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="1" y="2" z="-1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="5" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="5" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
+              <SubtypeName>OxygenGeneratorSmall</SubtypeName>
+              <EntityId>129798659654121911</EntityId>
+              <Min x="-1" y="3" z="0" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>false</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>300</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR O2/H2 Generator</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockLargeContainer</SubtypeName>
+              <EntityId>103229690422003727</EntityId>
+              <Min x="-2" y="2" z="2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>15.625</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Large Cargo Container</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
+              <SubtypeName>OxygenTankSmall</SubtypeName>
+              <EntityId>86002075666337863</EntityId>
+              <Min x="-1" y="7" z="3" />
+              <IntegrityPercent>0.6572104</IntegrityPercent>
+              <BuildPercent>0.6572104</BuildPercent>
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <ConstructionStockpile>
+                <Items xsi:type="MyObjectBuilder_StockpileItem">
+                  <Amount>6</Amount>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SteelPlate</SubtypeName>
+                  </PhysicalContent>
+                </Items>
+              </ConstructionStockpile>
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>1</nextItemId>
+                      <Volume>4</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Oxygen Tank</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsStockpiling>false</IsStockpiling>
+              <FilledRatio>1</FilledRatio>
+              <AutoRefill>true</AutoRefill>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>119219380143644278</EntityId>
+              <Min x="-3" y="7" z="2" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Right</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>133764542509384359</EntityId>
+              <Min x="1" y="7" z="2" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Left</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>90400987935171628</EntityId>
+              <Min x="2" y="8" z="3" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Reverse Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>101772283982062056</EntityId>
+              <Min x="2" y="7" z="3" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Forward Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>14</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="-2" y="5" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="2" y="5" z="0" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>76354412421906976</EntityId>
+              <Min x="0" y="2" z="-3" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>81372941188300885</EntityId>
+              <Min x="-4" y="5" z="3" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Battery Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.9952014</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>83511577380454941</EntityId>
+              <Min x="3" y="5" z="3" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Battery Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>0.995243549</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+              <SubtypeName>ConnectorMedium</SubtypeName>
+              <EntityId>119909476394250560</EntityId>
+              <Min x="-1" y="3" z="7" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <DeformationRatio>0.5</DeformationRatio>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>1.152</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame10</TimerType>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
+                      <TimerTickInFrames>80</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Connector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <MasterToSlaveTransform xsi:nil="true" />
+              <MasterToSlaveGrid xsi:nil="true" />
+              <IsMaster>true</IsMaster>
+              <TradingEnabled>false</TradingEnabled>
+              <AutoUnlockTime>0</AutoUnlockTime>
+              <TimeOfConnection>0</TimeOfConnection>
+              <IsParkingEnabled>true</IsParkingEnabled>
+              <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>115951645629600017</EntityId>
+              <Min x="0" y="6" z="7" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Camera Reverse</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>85045690839281803</EntityId>
+              <Min x="0" y="3" z="-4" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Camera Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>0.5971212</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>108207758726646513</EntityId>
+              <Min x="0" y="6" z="1" />
+              <BlockOrientation Forward="Up" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>true</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-3" y="5" z="0" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+              <SubtypeName>SmallBlockDrill</SubtypeName>
+              <EntityId>99439245469929134</EntityId>
+              <Min x="-4" y="2" z="-5" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Drill Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmall</SubtypeName>
+              <EntityId>114916161623086270</EntityId>
+              <Min x="-3" y="4" z="3" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>125941256181258538</EntityId>
+              <Min x="-3" y="4" z="4" />
+              <BlockOrientation Forward="Left" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="3" y="5" z="0" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+              <SubtypeName>SmallBlockDrill</SubtypeName>
+              <EntityId>88752877627384240</EntityId>
+              <Min x="2" y="2" z="-5" />
+              <IntegrityPercent>0.863045</IntegrityPercent>
+              <BuildPercent>0.863045</BuildPercent>
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>3.375</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Drill Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>5</NumberInGrid>
+              <Enabled>false</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>88393235386512288</EntityId>
+              <Min x="-3" y="3" z="1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>118816985965218477</EntityId>
+              <Min x="-3" y="4" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>120541870323646317</EntityId>
+              <Min x="-4" y="4" z="2" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Up Port Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmall</SubtypeName>
+              <EntityId>124557811461027576</EntityId>
+              <Min x="-3" y="4" z="2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>74148409352987976</EntityId>
+              <Min x="-4" y="4" z="6" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Up Port Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>129783006581368469</EntityId>
+              <Min x="4" y="4" z="2" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Up Starboard Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>128027279233995074</EntityId>
+              <Min x="4" y="4" z="6" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Up Starboard Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>85706271792149936</EntityId>
+              <Min x="3" y="4" z="4" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>95273226150793736</EntityId>
+              <Min x="3" y="3" z="1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+              <EntityId>86822995790521188</EntityId>
+              <Min x="3" y="4" z="1" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmall</SubtypeName>
+              <EntityId>100390149006640508</EntityId>
+              <Min x="3" y="4" z="2" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+              <SubtypeName>ConveyorTubeSmall</SubtypeName>
+              <EntityId>124943209627630905</EntityId>
+              <Min x="3" y="4" z="3" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OreDetector">
+              <SubtypeName>SmallBlockOreDetector</SubtypeName>
+              <EntityId>110728808934249212</EntityId>
+              <Min x="0" y="6" z="-1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Ore Detector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <DetectionRadius>25</DetectionRadius>
+              <BroadcastUsingAntennas>true</BroadcastUsingAntennas>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>73000852795652910</EntityId>
+              <Min x="-2" y="7" z="3" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Forward Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>129021869301575670</EntityId>
+              <Min x="-2" y="8" z="3" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>SnR Atmospheric Thruster Reverse Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>15</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
+              <SubtypeName>SmallAirVent</SubtypeName>
+              <EntityId>96698323080140763</EntityId>
+              <Min x="0" y="1" z="4" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Air Vent</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsDepressurizing>true</IsDepressurizing>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+              <SubtypeName>SmallProjector</SubtypeName>
+              <EntityId>80693312341768040</EntityId>
+              <Min x="0" y="7" z="2" />
+              <ColorMaskHSV x="0" y="-0.8" z="0" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>SnR Projector Repair</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>false</Enabled>
+              <ProjectedGrids>
+                <MyObjectBuilder_CubeGrid>
+                  <SubtypeName />
+                  <EntityId>106654432319741347</EntityId>
+                  <PersistentFlags>CastShadows InScene</PersistentFlags>
+                  <Name>106654432319741347</Name>
+                  <PositionAndOrientation>
+                    <Position x="0" y="0" z="0" />
+                    <Forward x="-0.2777784" y="-0.8418134" z="0.4628057" />
+                    <Up x="0.8222084" y="0.0408086181" z="0.567721665" />
+                    <Orientation>
+                      <X>0.480935335</X>
+                      <Y>0.7071804</Y>
+                      <Z>0.498294115</Z>
+                      <W>-0.142478511</W>
+                    </Orientation>
+                  </PositionAndOrientation>
+                  <LocalPositionAndOrientation xsi:nil="true" />
+                  <GridSizeEnum>Small</GridSizeEnum>
+                  <CubeBlocks>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LandingGear">
+                      <SubtypeName>SmallBlockLandingGear</SubtypeName>
+                      <EntityId>105959443110700182</EntityId>
+                      <Min x="0" y="0" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Landing Gear</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsLocked>false</IsLocked>
+                      <BrakeForce>-INF</BrakeForce>
+                      <AutoLock>true</AutoLock>
+                      <FirstLockAttempt>false</FirstLockAttempt>
+                      <LockSound>RealShipLandGearOn</LockSound>
+                      <UnlockSound>RealShipLandGearOff</UnlockSound>
+                      <FailedAttachSound>RealShipLandGearNothing01</FailedAttachSound>
+                      <AttachedEntityId xsi:nil="true" />
+                      <MasterToSlave xsi:nil="true" />
+                      <GearPivotPosition>
+                        <X>0.00145399291</X>
+                        <Y>-0.273519278</Y>
+                        <Z>0.0244466271</Z>
+                      </GearPivotPosition>
+                      <OtherPivot>
+                        <Position>
+                          <X>0</X>
+                          <Y>0</Y>
+                          <Z>0</Z>
+                        </Position>
+                        <Orientation>
+                          <PackedValue>0</PackedValue>
+                        </Orientation>
+                        <Matrix>
+                          <M11>1</M11>
+                          <M12>0</M12>
+                          <M13>0</M13>
+                          <M14>0</M14>
+                          <M21>0</M21>
+                          <M22>1</M22>
+                          <M23>0</M23>
+                          <M24>0</M24>
+                          <M31>0</M31>
+                          <M32>0</M32>
+                          <M33>1</M33>
+                          <M34>0</M34>
+                          <M41>0</M41>
+                          <M42>0</M42>
+                          <M43>0</M43>
+                          <M44>1</M44>
+                          <Up>
+                            <X>0</X>
+                            <Y>1</Y>
+                            <Z>0</Z>
+                          </Up>
+                          <Down>
+                            <X>-0</X>
+                            <Y>-1</Y>
+                            <Z>-0</Z>
+                          </Down>
+                          <Right>
+                            <X>1</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                          </Right>
+                          <Left>
+                            <X>-1</X>
+                            <Y>-0</Y>
+                            <Z>-0</Z>
+                          </Left>
+                          <Forward>
+                            <X>-0</X>
+                            <Y>-0</Y>
+                            <Z>-1</Z>
+                          </Forward>
+                          <Backward>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>1</Z>
+                          </Backward>
+                          <Translation>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                          </Translation>
+                        </Matrix>
+                      </OtherPivot>
+                      <LockMode>Unlocked</LockMode>
+                      <IsParkingEnabled>true</IsParkingEnabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="-2" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
+                      <SubtypeName>SmallBlockCockpit</SubtypeName>
+                      <EntityId>133658150330948371</EntityId>
+                      <Min x="-1" y="3" z="-3" />
+                      <IntegrityPercent>0.9811321</IntegrityPercent>
+                      <BuildPercent>0.9811321</BuildPercent>
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>1</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Cockpit</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <UseSingleWeaponMode>false</UseSingleWeaponMode>
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot>0</SelectedSlot>
+                        <Slots>
+                          <Slot>
+                            <Index>0</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                              <DefinitionId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>2</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>100073561671068358</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>3</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>93158083814430894</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>5</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>Recharge</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>133658150330948371</BlockEntityId>
+                              <GroupName>SnR Batteries</GroupName>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>6</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>OnOff</Action>
+                              <BlockEntityId>75360894075878527</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>8</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>OnOff</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>133658150330948371</BlockEntityId>
+                              <GroupName>SnR Atmo Thrusters</GroupName>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>11</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>Control</Action>
+                              <BlockEntityId>131718558594348980</BlockEntityId>
+                            </Data>
+                          </Slot>
+                        </Slots>
+                        <SlotsGamepad>
+                          <Slot>
+                            <Index>0</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>OnOff</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>133658150330948371</BlockEntityId>
+                              <GroupName>SnR Atmo Thrusters</GroupName>
+                            </Data>
+                          </Slot>
+                        </SlotsGamepad>
+                      </Toolbar>
+                      <SelectedGunId Type="MyObjectBuilder_Drill" Subtype="SmallBlockDrill" />
+                      <BuildToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </BuildToolbar>
+                      <OnLockedToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </OnLockedToolbar>
+                      <PilotRelativeWorld>
+                        <Position x="-1.0716192722320557" y="0.747477650642395" z="0.953601598739624" />
+                        <Forward x="0.741304159" y="-0.0101704374" z="-0.671092153" />
+                        <Up x="0.01607556" y="0.9998673" z="0.00260453625" />
+                        <Orientation>
+                          <X>-0.00206935545</X>
+                          <Y>-0.4055239</Y>
+                          <Z>-0.00787556</Z>
+                          <W>0.9140482</W>
+                        </Orientation>
+                      </PilotRelativeWorld>
+                      <PilotGunDefinition Type="MyObjectBuilder_Welder" Subtype="Welder2" />
+                      <IsInFirstPersonView>true</IsInFirstPersonView>
+                      <OxygenLevel>0</OxygenLevel>
+                      <PilotJetpackEnabled xsi:nil="true" />
+                      <TextPanels>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_ArtificialHorizon</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_EnergyHydrogen</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <ContentType>SCRIPT</ContentType>
+                          <SelectedScript>TSS_Gravity</SelectedScript>
+                          <TextPadding>2</TextPadding>
+                          <CustomizeScripts>true</CustomizeScripts>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                        <MySerializedTextPanelData>
+                          <ChangeInterval>0</ChangeInterval>
+                          <Font Type="MyObjectBuilder_FontDefinition" Subtype="Debug" />
+                          <FontSize>1</FontSize>
+                          <ShowText>NONE</ShowText>
+                          <FontColor>
+                            <PackedValue>4294967295</PackedValue>
+                            <X>255</X>
+                            <Y>255</Y>
+                            <Z>255</Z>
+                            <R>255</R>
+                            <G>255</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </FontColor>
+                          <BackgroundColor>
+                            <PackedValue>4278190080</PackedValue>
+                            <X>0</X>
+                            <Y>0</Y>
+                            <Z>0</Z>
+                            <R>0</R>
+                            <G>0</G>
+                            <B>0</B>
+                            <A>255</A>
+                          </BackgroundColor>
+                          <CurrentShownTexture>0</CurrentShownTexture>
+                          <SelectedScript />
+                          <TextPadding>2</TextPadding>
+                          <ScriptBackgroundColor>
+                            <PackedValue>4288108544</PackedValue>
+                            <X>0</X>
+                            <Y>88</Y>
+                            <Z>151</Z>
+                            <R>0</R>
+                            <G>88</G>
+                            <B>151</B>
+                            <A>255</A>
+                          </ScriptBackgroundColor>
+                          <ScriptForegroundColor>
+                            <PackedValue>4294962611</PackedValue>
+                            <X>179</X>
+                            <Y>237</Y>
+                            <Z>255</Z>
+                            <R>179</R>
+                            <G>237</G>
+                            <B>255</B>
+                            <A>255</A>
+                          </ScriptForegroundColor>
+                          <Sprites>
+                            <Length>0</Length>
+                          </Sprites>
+                        </MySerializedTextPanelData>
+                      </TextPanels>
+                      <TargetData>
+                        <TargetId>0</TargetId>
+                        <IsTargetLocked>false</IsTargetLocked>
+                        <LockingProgress>0</LockingProgress>
+                      </TargetData>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="-1" y="2" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="1" y="2" z="-1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="-2" y="5" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="2" y="5" z="1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenGenerator">
+                      <SubtypeName>OxygenGeneratorSmall</SubtypeName>
+                      <EntityId>134460491251163330</EntityId>
+                      <Min x="-1" y="3" z="0" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>1</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>false</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame10</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>300</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR O2/H2 Generator</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+                      <SubtypeName>SmallBlockLargeContainer</SubtypeName>
+                      <EntityId>84121132649153216</EntityId>
+                      <Min x="-2" y="2" z="2" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>15.625</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Large Cargo Container</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OxygenTank">
+                      <SubtypeName>OxygenTankSmall</SubtypeName>
+                      <EntityId>84549691717225361</EntityId>
+                      <Min x="-1" y="7" z="3" />
+                      <IntegrityPercent>0.6572104</IntegrityPercent>
+                      <BuildPercent>0.6572104</BuildPercent>
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ConstructionStockpile />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>4</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Oxygen Tank</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsStockpiling>false</IsStockpiling>
+                      <FilledRatio>0</FilledRatio>
+                      <AutoRefill>true</AutoRefill>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>135279721596449759</EntityId>
+                      <Min x="-3" y="7" z="2" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Right</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>5</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>83475593481088324</EntityId>
+                      <Min x="1" y="7" z="2" />
+                      <BlockOrientation Forward="Right" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Left</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>6</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>81510178510883935</EntityId>
+                      <Min x="2" y="8" z="3" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Reverse Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>7</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>93078374229359245</EntityId>
+                      <Min x="2" y="7" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Forward Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>14</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="-2" y="5" z="1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="2" y="5" z="0" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+                      <SubtypeName>SmallBlockGyro</SubtypeName>
+                      <EntityId>134041059467087731</EntityId>
+                      <Min x="0" y="2" z="-3" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Gyroscope</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+                      <EntityId>108088593505906465</EntityId>
+                      <Min x="-4" y="5" z="3" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Battery Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+                      <EntityId>141258284056567906</EntityId>
+                      <Min x="3" y="5" z="3" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Battery Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
+                      <SubtypeName>ConnectorMedium</SubtypeName>
+                      <EntityId>103327047435827154</EntityId>
+                      <Min x="-1" y="3" z="7" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <DeformationRatio>0.5</DeformationRatio>
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>1.152</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame10</TimerType>
+                              <FramesFromLastTrigger>40</FramesFromLastTrigger>
+                              <TimerTickInFrames>80</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Connector</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <MasterToSlaveTransform xsi:nil="true" />
+                      <MasterToSlaveGrid xsi:nil="true" />
+                      <IsMaster>true</IsMaster>
+                      <TradingEnabled>false</TradingEnabled>
+                      <AutoUnlockTime>0</AutoUnlockTime>
+                      <TimeOfConnection>0</TimeOfConnection>
+                      <IsParkingEnabled>true</IsParkingEnabled>
+                      <IsPowerTransferOverrideEnabled>false</IsPowerTransferOverrideEnabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>93158083814430894</EntityId>
+                      <Min x="0" y="6" z="7" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Camera Reverse</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>1.04719758</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>100073561671068358</EntityId>
+                      <Min x="0" y="3" z="-4" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Camera Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>0.5971212</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+                      <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+                      <EntityId>83601050077264290</EntityId>
+                      <Min x="0" y="6" z="1" />
+                      <BlockOrientation Forward="Up" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Antenna</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <BroadcastRadius>5000</BroadcastRadius>
+                      <ShowShipName>true</ShowShipName>
+                      <EnableBroadcasting>true</EnableBroadcasting>
+                      <AttachedPB>0</AttachedPB>
+                      <IgnoreAllied>false</IgnoreAllied>
+                      <IgnoreOther>true</IgnoreOther>
+                      <HudText />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="-3" y="5" z="0" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+                      <SubtypeName>SmallBlockDrill</SubtypeName>
+                      <EntityId>133231552576525424</EntityId>
+                      <Min x="-4" y="2" z="-5" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>3.375</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Drill Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>3</NumberInGrid>
+                      <Enabled>false</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmall</SubtypeName>
+                      <EntityId>123593801744070073</EntityId>
+                      <Min x="-3" y="4" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>125509365763707225</EntityId>
+                      <Min x="-3" y="4" z="4" />
+                      <BlockOrientation Forward="Left" Up="Backward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="3" y="5" z="0" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Drill">
+                      <SubtypeName>SmallBlockDrill</SubtypeName>
+                      <EntityId>92944254177483392</EntityId>
+                      <Min x="2" y="2" z="-5" />
+                      <IntegrityPercent>0.863045</IntegrityPercent>
+                      <BuildPercent>0.863045</BuildPercent>
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>3.375</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Drill Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>5</NumberInGrid>
+                      <Enabled>false</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>136464404282776758</EntityId>
+                      <Min x="-3" y="3" z="1" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>120478652415447134</EntityId>
+                      <Min x="-3" y="4" z="1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>76208994081970626</EntityId>
+                      <Min x="-4" y="4" z="2" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Up Port Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>9</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmall</SubtypeName>
+                      <EntityId>88754965683906774</EntityId>
+                      <Min x="-3" y="4" z="2" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>140634496326305259</EntityId>
+                      <Min x="-4" y="4" z="6" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Up Port Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>10</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>96700576805148589</EntityId>
+                      <Min x="4" y="4" z="2" />
+                      <BlockOrientation Forward="Down" Up="Backward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Up Starboard Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>11</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>122201101897605102</EntityId>
+                      <Min x="4" y="4" z="6" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Up Starboard Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>12</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>94885849845348749</EntityId>
+                      <Min x="3" y="4" z="4" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>87081680292394836</EntityId>
+                      <Min x="3" y="3" z="1" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
+                      <EntityId>135253896753277477</EntityId>
+                      <Min x="3" y="4" z="1" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmall</SubtypeName>
+                      <EntityId>90923622500870864</EntityId>
+                      <Min x="3" y="4" z="2" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
+                      <SubtypeName>ConveyorTubeSmall</SubtypeName>
+                      <EntityId>97799785934732114</EntityId>
+                      <Min x="3" y="4" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OreDetector">
+                      <SubtypeName>SmallBlockOreDetector</SubtypeName>
+                      <EntityId>75360894075878527</EntityId>
+                      <Min x="0" y="6" z="-1" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <CustomName>SnR Ore Detector</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <DetectionRadius>25</DetectionRadius>
+                      <BroadcastUsingAntennas>true</BroadcastUsingAntennas>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>82940869119180677</EntityId>
+                      <Min x="-2" y="7" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Forward Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>13</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>91439436433171561</EntityId>
+                      <Min x="-2" y="8" z="3" />
+                      <BlockOrientation Forward="Forward" Up="Down" />
+                      <ColorMaskHSV x="0" y="-0.8" z="-0.13" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>SnR Atmospheric Thruster Reverse Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>15</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
+                      <SubtypeName>SmallAirVent</SubtypeName>
+                      <EntityId>107740311227135064</EntityId>
+                      <Min x="0" y="1" z="4" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0" y="-0.8" z="0" />
+                      <CustomName>SnR Air Vent</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsDepressurizing>true</IsDepressurizing>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+                      <SubtypeName>SmallProjector</SubtypeName>
+                      <EntityId>125003067184217972</EntityId>
+                      <Min x="0" y="7" z="2" />
+                      <ColorMaskHSV x="0" y="-0.8" z="0" />
+                      <CustomName>SnR Projector Repair</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <ProjectionOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionOffset>
+                      <ProjectionRotation>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionRotation>
+                      <KeepProjection>false</KeepProjection>
+                      <ShowOnlyBuildable>false</ShowOnlyBuildable>
+                      <InstantBuildingEnabled>false</InstantBuildingEnabled>
+                      <MaxNumberOfProjections>5</MaxNumberOfProjections>
+                      <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+                      <ProjectionsRemaining>0</ProjectionsRemaining>
+                      <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+                      <Scale>1</Scale>
+                    </MyObjectBuilder_CubeBlock>
+                  </CubeBlocks>
+                  <ConveyorLines>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="1" y="4" z="-1" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="1" y="4" z="0" />
+                      <EndDirection>Forward</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="-1" y="4" z="-1" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="-1" y="4" z="0" />
+                      <EndDirection>Forward</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="0" y="4" z="1" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="0" y="4" z="2" />
+                      <EndDirection>Forward</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="0" y="6" z="4" />
+                      <StartDirection>Up</StartDirection>
+                      <EndPosition x="0" y="7" z="4" />
+                      <EndDirection>Down</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="0" y="4" z="6" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="0" y="4" z="7" />
+                      <EndDirection>Forward</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="3" y="3" z="0" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="2" y="4" z="4" />
+                      <EndDirection>Right</EndDirection>
+                      <Sections>
+                        <Section Direction="Backward" Length="1" />
+                        <Section Direction="Up" Length="1" />
+                        <Section Direction="Backward" Length="3" />
+                        <Section Direction="Left" Length="1" />
+                      </Sections>
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="-3" y="3" z="0" />
+                      <StartDirection>Backward</StartDirection>
+                      <EndPosition x="-2" y="4" z="4" />
+                      <EndDirection>Left</EndDirection>
+                      <Sections>
+                        <Section Direction="Backward" Length="1" />
+                        <Section Direction="Up" Length="1" />
+                        <Section Direction="Backward" Length="3" />
+                        <Section Direction="Right" Length="1" />
+                      </Sections>
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="0" y="2" z="4" />
+                      <StartDirection>Down</StartDirection>
+                      <EndPosition x="0" y="1" z="4" />
+                      <EndDirection>Up</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                  </ConveyorLines>
+                  <BlockGroups>
+                    <MyObjectBuilder_BlockGroup>
+                      <Name>SnR Batteries</Name>
+                      <Blocks>
+                        <Vector3I>
+                          <X>3</X>
+                          <Y>6</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-4</X>
+                          <Y>6</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                      </Blocks>
+                    </MyObjectBuilder_BlockGroup>
+                    <MyObjectBuilder_BlockGroup>
+                      <Name>SnR Atmo Thrusters</Name>
+                      <Blocks>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>7</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>8</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>7</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-4</X>
+                          <Y>5</Y>
+                          <Z>6</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-4</X>
+                          <Y>5</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>4</X>
+                          <Y>5</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>4</X>
+                          <Y>5</Y>
+                          <Z>6</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>7</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>7</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>8</Y>
+                          <Z>4</Z>
+                        </Vector3I>
+                      </Blocks>
+                    </MyObjectBuilder_BlockGroup>
+                  </BlockGroups>
+                  <DisplayName>Snow Rabbit - Mining</DisplayName>
+                  <DestructibleBlocks>true</DestructibleBlocks>
+                  <CreatePhysics>false</CreatePhysics>
+                  <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                  <IsRespawnGrid>false</IsRespawnGrid>
+                  <LocalCoordSys>0</LocalCoordSys>
+                  <TargetingTargets />
+                  <OxygenRooms>
+                    <OxygenRoom OxygenAmount="0">
+                      <StartingPosition>
+                        <X>-5</X>
+                        <Y>-1</Y>
+                        <Z>-6</Z>
+                      </StartingPosition>
+                    </OxygenRoom>
+                    <OxygenRoom OxygenAmount="1.40624988">
+                      <StartingPosition>
+                        <X>-2</X>
+                        <Y>2</Y>
+                        <Z>2</Z>
+                      </StartingPosition>
+                    </OxygenRoom>
+                  </OxygenRooms>
+                </MyObjectBuilder_CubeGrid>
+              </ProjectedGrids>
+              <ProjectionOffset>
+                <X>0</X>
+                <Y>7</Y>
+                <Z>2</Z>
+              </ProjectionOffset>
+              <ProjectionRotation>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </ProjectionRotation>
+              <KeepProjection>true</KeepProjection>
+              <ShowOnlyBuildable>false</ShowOnlyBuildable>
+              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+              <ProjectionsRemaining>0</ProjectionsRemaining>
+              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+              <Scale>1</Scale>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="1" y="4" z="-1" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="1" y="4" z="0" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="4" z="-1" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="-1" y="4" z="0" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="4" z="1" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="4" z="2" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="6" z="4" />
+              <StartDirection>Up</StartDirection>
+              <EndPosition x="0" y="7" z="4" />
+              <EndDirection>Down</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="4" z="6" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="0" y="4" z="7" />
+              <EndDirection>Forward</EndDirection>
+              <Sections />
+              <ConveyorLineType>LARGE_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="3" y="3" z="0" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="2" y="4" z="4" />
+              <EndDirection>Right</EndDirection>
+              <Sections>
+                <Section Direction="Backward" Length="1" />
+                <Section Direction="Up" Length="1" />
+                <Section Direction="Backward" Length="3" />
+                <Section Direction="Left" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-3" y="3" z="0" />
+              <StartDirection>Backward</StartDirection>
+              <EndPosition x="-2" y="4" z="4" />
+              <EndDirection>Left</EndDirection>
+              <Sections>
+                <Section Direction="Backward" Length="1" />
+                <Section Direction="Up" Length="1" />
+                <Section Direction="Backward" Length="3" />
+                <Section Direction="Right" Length="1" />
+              </Sections>
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="0" y="2" z="4" />
+              <StartDirection>Down</StartDirection>
+              <EndPosition x="0" y="1" z="4" />
+              <EndDirection>Up</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>SnR Batteries</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>3</X>
+                  <Y>6</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>6</Y>
+                  <Z>4</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+            <MyObjectBuilder_BlockGroup>
+              <Name>SnR Atmo Thrusters</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>7</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>8</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>7</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>5</Y>
+                  <Z>6</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-4</X>
+                  <Y>5</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>4</X>
+                  <Y>5</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>4</X>
+                  <Y>5</Y>
+                  <Z>6</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>7</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>7</Y>
+                  <Z>4</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>8</Y>
+                  <Z>4</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Snow Rabbit - Mining</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+          <OxygenRooms>
+            <OxygenRoom OxygenAmount="0">
+              <StartingPosition>
+                <X>-5</X>
+                <Y>-1</Y>
+                <Z>-6</Z>
+              </StartingPosition>
+            </OxygenRoom>
+            <OxygenRoom OxygenAmount="1.40624988">
+              <StartingPosition>
+                <X>-2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+              </StartingPosition>
+            </OxygenRoom>
+          </OxygenRooms>
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198009391911</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>

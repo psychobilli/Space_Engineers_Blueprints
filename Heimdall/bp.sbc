@@ -1,0 +1,2742 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShipBlueprints>
+    <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Heimdall" />
+      <DisplayName>PsychoBilli</DisplayName>
+      <CubeGrids>
+        <CubeGrid>
+          <SubtypeName />
+          <EntityId>120792445127808337</EntityId>
+          <PersistentFlags>CastShadows InScene</PersistentFlags>
+          <PositionAndOrientation>
+            <Position x="16868.610932424977" y="-7657.0489615027782" z="2843.4042482141631" />
+            <Forward x="0.4172522" y="0.8519212" z="-0.316434443" />
+            <Up x="-0.9087142" y="0.395625919" z="-0.133111089" />
+            <Orientation>
+              <X>0.2737376</X>
+              <Y>-0.5165757</Y>
+              <Z>0.476712435</Z>
+              <W>0.656477332</W>
+            </Orientation>
+          </PositionAndOrientation>
+          <LocalPositionAndOrientation xsi:nil="true" />
+          <GridSizeEnum>Small</GridSizeEnum>
+          <CubeBlocks>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+              <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
+              <EntityId>118715634550412727</EntityId>
+              <Min x="0" y="1" z="0" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Small Merge Block Base</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+              <SubtypeName>SmallProjector</SubtypeName>
+              <EntityId>74622164890998287</EntityId>
+              <Min x="0" y="1" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Projector</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <ProjectedGrids>
+                <MyObjectBuilder_CubeGrid>
+                  <SubtypeName />
+                  <EntityId>126673766598925891</EntityId>
+                  <PersistentFlags>CastShadows InScene</PersistentFlags>
+                  <Name>126673766598925891</Name>
+                  <PositionAndOrientation>
+                    <Position x="0" y="0" z="0" />
+                    <Forward x="0.42343694" y="0.840065062" z="-0.3391044" />
+                    <Up x="-0.9057659" y="0.399611235" z="-0.141063869" />
+                    <Orientation>
+                      <X>0.2637667</X>
+                      <Y>-0.5107591</Y>
+                      <Z>0.4802307</Z>
+                      <W>0.662518442</W>
+                    </Orientation>
+                  </PositionAndOrientation>
+                  <LocalPositionAndOrientation xsi:nil="true" />
+                  <GridSizeEnum>Small</GridSizeEnum>
+                  <CubeBlocks>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                      <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
+                      <EntityId>143680854193753226</EntityId>
+                      <Min x="0" y="1" z="0" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Small Merge Block Base</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
+                      <SubtypeName>SmallProjector</SubtypeName>
+                      <EntityId>136411535931336989</EntityId>
+                      <Min x="0" y="1" z="-1" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Projector</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <ProjectionOffset>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionOffset>
+                      <ProjectionRotation>
+                        <X>0</X>
+                        <Y>0</Y>
+                        <Z>0</Z>
+                      </ProjectionRotation>
+                      <KeepProjection>false</KeepProjection>
+                      <ShowOnlyBuildable>false</ShowOnlyBuildable>
+                      <InstantBuildingEnabled>false</InstantBuildingEnabled>
+                      <MaxNumberOfProjections>5</MaxNumberOfProjections>
+                      <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+                      <ProjectionsRemaining>0</ProjectionsRemaining>
+                      <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+                      <Scale>1</Scale>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+                      <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
+                      <EntityId>135834454570429768</EntityId>
+                      <Min x="0" y="2" z="0" />
+                      <BlockOrientation Forward="Forward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Small Merge Block Ship</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+                      <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+                      <EntityId>92217150329151187</EntityId>
+                      <Min x="-1" y="3" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Battery</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <CurrentStoredPower>0</CurrentStoredPower>
+                      <ProducerEnabled>true</ProducerEnabled>
+                      <MaxStoredPower>0</MaxStoredPower>
+                      <SemiautoEnabled>false</SemiautoEnabled>
+                      <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+                      <ChargeMode>0</ChargeMode>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>137667460241404000</EntityId>
+                      <Min x="-1" y="2" z="2" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Up Starboard Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>104065179840965730</EntityId>
+                      <Min x="1" y="2" z="2" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Up Port Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>114355927445133690</EntityId>
+                      <Min x="-1" y="2" z="3" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Up Starboard Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>10</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>143700550237561961</EntityId>
+                      <Min x="1" y="2" z="3" />
+                      <BlockOrientation Forward="Down" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Up Port Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>4</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+                      <SubtypeName>SmallBlockGyro</SubtypeName>
+                      <EntityId>130468946868861346</EntityId>
+                      <Min x="0" y="4" z="2" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Gyroscope</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="2" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+                      <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+                      <EntityId>98821546564015876</EntityId>
+                      <Min x="0" y="3" z="2" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Antenna</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <BroadcastRadius>5000</BroadcastRadius>
+                      <ShowShipName>false</ShowShipName>
+                      <EnableBroadcasting>true</EnableBroadcasting>
+                      <AttachedPB>0</AttachedPB>
+                      <IgnoreAllied>false</IgnoreAllied>
+                      <IgnoreOther>true</IgnoreOther>
+                      <HudText />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="4" z="3" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="3" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+                      <SubtypeName />
+                      <EntityId>134006605275328493</EntityId>
+                      <Min x="-1" y="3" z="4" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>0.064</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Gatling Gun Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsShooting>false</IsShooting>
+                      <IsShootingFromTerminal>false</IsShootingFromTerminal>
+                      <IsLargeTurret>false</IsLargeTurret>
+                      <MinFov>0.1</MinFov>
+                      <MaxFov>1.04719758</MaxFov>
+                      <GunBase>
+                        <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                        <RemainingAmmosList />
+                        <LastShootTime>638016445265532315</LastShootTime>
+                      </GunBase>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+                      <SubtypeName />
+                      <EntityId>122246072255306521</EntityId>
+                      <Min x="1" y="3" z="4" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>0.064</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Gatling Gun Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsShooting>false</IsShooting>
+                      <IsShootingFromTerminal>false</IsShootingFromTerminal>
+                      <IsLargeTurret>false</IsLargeTurret>
+                      <MinFov>0.1</MinFov>
+                      <MaxFov>1.04719758</MaxFov>
+                      <GunBase>
+                        <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                        <RemainingAmmosList />
+                        <LastShootTime>638016445265532315</LastShootTime>
+                      </GunBase>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+                      <SubtypeName>SmallBlockSmallContainer</SubtypeName>
+                      <EntityId>130763132261526125</EntityId>
+                      <Min x="0" y="3" z="4" />
+                      <BlockOrientation Forward="Right" Up="Backward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyInventoryBase</TypeId>
+                            <Component xsi:type="MyObjectBuilder_Inventory">
+                              <Items />
+                              <nextItemId>0</nextItemId>
+                              <Volume>0.125</Volume>
+                              <Mass>9223372036854.775807</Mass>
+                              <MaxItemCount>2147483647</MaxItemCount>
+                              <Size xsi:nil="true" />
+                              <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Small Cargo Container</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>92406443724775945</EntityId>
+                      <Min x="1" y="2" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Forward Port Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>7</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>86084652077274052</EntityId>
+                      <Min x="-1" y="2" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Forward Starboard Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>6</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>74626667192466332</EntityId>
+                      <Min x="2" y="3" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Forward Port Dorsal</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>8</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>124728505687424676</EntityId>
+                      <Min x="-2" y="3" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Forward Starboard Dorsal</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>9</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+                      <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+                      <EntityId>139074928679782431</EntityId>
+                      <Min x="0" y="3" z="5" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Remote Control</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <UseSingleWeaponMode>false</UseSingleWeaponMode>
+                      <Toolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot>0</SelectedSlot>
+                        <Slots>
+                          <Slot>
+                            <Index>0</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                              <DefinitionId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>2</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>95348142235099539</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>3</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>101009698628803896</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>4</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>101618436280448537</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>5</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>Recharge</Action>
+                              <BlockEntityId>92217150329151187</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>7</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>OnOff</Action>
+                              <BlockEntityId>135834454570429768</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>8</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>OnOff</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>139074928679782431</BlockEntityId>
+                              <GroupName>Heimdall Thrusters</GroupName>
+                            </Data>
+                          </Slot>
+                        </Slots>
+                        <SlotsGamepad>
+                          <Slot>
+                            <Index>0</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                              <DefinitionId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>4</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>95348142235099539</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>5</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>101009698628803896</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>6</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>View</Action>
+                              <BlockEntityId>101618436280448537</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>7</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>Recharge</Action>
+                              <BlockEntityId>92217150329151187</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>8</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                              <Action>OnOff</Action>
+                              <BlockEntityId>135834454570429768</BlockEntityId>
+                            </Data>
+                          </Slot>
+                          <Slot>
+                            <Index>9</Index>
+                            <Item />
+                            <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                              <Action>OnOff</Action>
+                              <GridEntityId>0</GridEntityId>
+                              <BlockEntityId>139074928679782431</BlockEntityId>
+                              <GroupName>Heimdall Thrusters</GroupName>
+                            </Data>
+                          </Slot>
+                        </SlotsGamepad>
+                      </Toolbar>
+                      <SelectedGunId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                      <BuildToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </BuildToolbar>
+                      <OnLockedToolbar>
+                        <ToolbarType>Character</ToolbarType>
+                        <SelectedSlot xsi:nil="true" />
+                        <Slots />
+                        <SlotsGamepad />
+                      </OnLockedToolbar>
+                      <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+                      <PreviousControlledEntityId xsi:nil="true" />
+                      <AutoPilotEnabled>false</AutoPilotEnabled>
+                      <FlightMode>0</FlightMode>
+                      <BindedCamera>95348142235099539</BindedCamera>
+                      <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+                      <Waypoints />
+                      <Direction>0</Direction>
+                      <DockingModeEnabled>false</DockingModeEnabled>
+                      <CollisionAvoidance>false</CollisionAvoidance>
+                      <Coords />
+                      <Names />
+                      <WaypointThresholdDistance>0</WaypointThresholdDistance>
+                      <IsMainRemoteControl>false</IsMainRemoteControl>
+                      <WaitForFreeWay>false</WaitForFreeWay>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>95348142235099539</EntityId>
+                      <Min x="0" y="3" z="6" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Camera Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>1</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>1.04719758</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="4" z="4" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="4" z="4" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="4" z="4" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="4" z="5" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="4" z="5" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="4" z="5" />
+                      <BlockOrientation Forward="Down" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="4" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="5" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="0" y="2" z="6" />
+                      <BlockOrientation Forward="Forward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Slope</SubtypeName>
+                      <EntityId>117947595180232728</EntityId>
+                      <Min x="0" y="4" z="6" />
+                      <BlockOrientation Forward="Up" Up="Backward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Face</SubtypeName>
+                      <EntityId>77886336775878732</EntityId>
+                      <Min x="-1" y="4" z="6" />
+                      <BlockOrientation Forward="Right" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Face</SubtypeName>
+                      <EntityId>113599871915279851</EntityId>
+                      <Min x="1" y="4" z="6" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Flat</SubtypeName>
+                      <EntityId>99081354084300193</EntityId>
+                      <Min x="0" y="3" z="7" />
+                      <BlockOrientation Forward="Left" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+                      <Min x="0" y="2" z="7" />
+                      <BlockOrientation Forward="Up" Up="Backward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Face</SubtypeName>
+                      <EntityId>135902842584778039</EntityId>
+                      <Min x="1" y="2" z="6" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallWindow1x1Face</SubtypeName>
+                      <EntityId>122575183265931258</EntityId>
+                      <Min x="-1" y="2" z="6" />
+                      <BlockOrientation Forward="Right" Up="Backward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="2" z="5" />
+                      <BlockOrientation Forward="Up" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="-1" y="2" z="4" />
+                      <BlockOrientation Forward="Up" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="2" z="5" />
+                      <BlockOrientation Forward="Up" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+                      <Min x="1" y="2" z="4" />
+                      <BlockOrientation Forward="Up" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>83629933116602978</EntityId>
+                      <Min x="2" y="4" z="-1" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Reverse Port</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>11</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>111800513432817853</EntityId>
+                      <Min x="-2" y="4" z="-1" />
+                      <BlockOrientation Forward="Backward" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Reverse Starboard</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>12</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>142922745984111512</EntityId>
+                      <Min x="-3" y="5" z="0" />
+                      <BlockOrientation Forward="Left" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Left Starboard Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>13</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>128848182910311266</EntityId>
+                      <Min x="1" y="5" z="0" />
+                      <BlockOrientation Forward="Right" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Right Port Fore</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>14</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>113214516460825473</EntityId>
+                      <Min x="1" y="5" z="-1" />
+                      <BlockOrientation Forward="Right" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Right Port Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>15</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+                      <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+                      <EntityId>87364944883071259</EntityId>
+                      <Min x="-3" y="5" z="-1" />
+                      <BlockOrientation Forward="Left" Up="Forward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <ComponentContainer>
+                        <Components>
+                          <ComponentData>
+                            <TypeId>MyTimerComponent</TypeId>
+                            <Component xsi:type="MyObjectBuilder_TimerComponent">
+                              <Repeat>true</Repeat>
+                              <TimeToEvent>0</TimeToEvent>
+                              <SetTimeMinutes>0</SetTimeMinutes>
+                              <TimerEnabled>true</TimerEnabled>
+                              <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                              <TimerType>Frame100</TimerType>
+                              <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                              <TimerTickInFrames>100</TimerTickInFrames>
+                              <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                            </Component>
+                          </ComponentData>
+                        </Components>
+                      </ComponentContainer>
+                      <CustomName>Heimdall Atmospheric Thruster Left Starboard Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>16</NumberInGrid>
+                      <Enabled>true</Enabled>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="-2" y="3" z="2" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+                      <Min x="-2" y="3" z="3" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+                      <Min x="2" y="3" z="3" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="2" y="3" z="2" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="2" y="5" z="1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerBase</SubtypeName>
+                      <Min x="-1" y="5" z="1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerBase</SubtypeName>
+                      <Min x="1" y="5" z="1" />
+                      <BlockOrientation Forward="Left" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="-2" y="5" z="1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="5" z="2" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="5" z="1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCorner</SubtypeName>
+                      <Min x="1" y="5" z="2" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCorner</SubtypeName>
+                      <Min x="-1" y="5" z="2" />
+                      <BlockOrientation Forward="Right" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+                      <Min x="2" y="5" z="2" />
+                      <BlockOrientation Forward="Right" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+                      <Min x="-2" y="5" z="2" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+                      <Min x="0" y="5" z="0" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>101618436280448537</EntityId>
+                      <Min x="0" y="2" z="-1" />
+                      <BlockOrientation Forward="Down" Up="Backward" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Camera Ventral</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>2</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>1.04719758</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+                      <SubtypeName>SmallCameraBlock</SubtypeName>
+                      <EntityId>101009698628803896</EntityId>
+                      <Min x="0" y="5" z="-1" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                      <CustomName>Heimdall Camera Aft</CustomName>
+                      <ShowOnHUD>false</ShowOnHUD>
+                      <ShowInTerminal>true</ShowInTerminal>
+                      <ShowInToolbarConfig>true</ShowInToolbarConfig>
+                      <ShowInInventory>true</ShowInInventory>
+                      <NumberInGrid>3</NumberInGrid>
+                      <Enabled>true</Enabled>
+                      <IsActive>false</IsActive>
+                      <Fov>1.04719758</Fov>
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="-3" y="5" z="1" />
+                      <BlockOrientation Forward="Right" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="3" y="5" z="1" />
+                      <BlockOrientation Forward="Down" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+                      <Min x="0" y="5" z="4" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="0" y="5" z="3" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+                      <Min x="-1" y="5" z="3" />
+                      <BlockOrientation Forward="Backward" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+                      <Min x="1" y="5" z="3" />
+                      <BlockOrientation Forward="Right" Up="Up" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="-3" y="4" z="1" />
+                      <BlockOrientation Forward="Forward" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="-3" y="4" z="0" />
+                      <BlockOrientation Forward="Backward" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="-3" y="3" z="0" />
+                      <BlockOrientation Forward="Right" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="3" y="4" z="1" />
+                      <BlockOrientation Forward="Forward" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+                      <Min x="3" y="4" z="0" />
+                      <BlockOrientation Forward="Backward" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="3" y="3" z="0" />
+                      <BlockOrientation Forward="Up" Up="Right" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="-3" y="3" z="1" />
+                      <BlockOrientation Forward="Up" Up="Left" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                    <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+                      <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+                      <Min x="3" y="3" z="1" />
+                      <BlockOrientation Forward="Left" Up="Down" />
+                      <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+                    </MyObjectBuilder_CubeBlock>
+                  </CubeBlocks>
+                  <ConveyorLines>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="-1" y="3" z="4" />
+                      <StartDirection>Right</StartDirection>
+                      <EndPosition x="0" y="3" z="4" />
+                      <EndDirection>Left</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                    <MyObjectBuilder_ConveyorLine>
+                      <StartPosition x="1" y="3" z="4" />
+                      <StartDirection>Left</StartDirection>
+                      <EndPosition x="0" y="3" z="4" />
+                      <EndDirection>Right</EndDirection>
+                      <Sections />
+                      <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+                    </MyObjectBuilder_ConveyorLine>
+                  </ConveyorLines>
+                  <BlockGroups>
+                    <MyObjectBuilder_BlockGroup>
+                      <Name>Heimdall Thrusters</Name>
+                      <Blocks>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>3</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>3</Y>
+                          <Z>3</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>4</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>4</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>5</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>5</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>5</Y>
+                          <Z>-1</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>5</Y>
+                          <Z>-1</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>3</Y>
+                          <Z>2</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>3</Y>
+                          <Z>3</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-1</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>1</X>
+                          <Y>2</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>2</X>
+                          <Y>3</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                        <Vector3I>
+                          <X>-2</X>
+                          <Y>3</Y>
+                          <Z>0</Z>
+                        </Vector3I>
+                      </Blocks>
+                    </MyObjectBuilder_BlockGroup>
+                  </BlockGroups>
+                  <DisplayName>Heimdall</DisplayName>
+                  <DestructibleBlocks>true</DestructibleBlocks>
+                  <CreatePhysics>false</CreatePhysics>
+                  <EnableSmallToLargeConnections>false</EnableSmallToLargeConnections>
+                  <IsRespawnGrid>false</IsRespawnGrid>
+                  <LocalCoordSys>0</LocalCoordSys>
+                  <TargetingTargets />
+                </MyObjectBuilder_CubeGrid>
+              </ProjectedGrids>
+              <ProjectionOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>1</Z>
+              </ProjectionOffset>
+              <ProjectionRotation>
+                <X>2</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </ProjectionRotation>
+              <KeepProjection>true</KeepProjection>
+              <ShowOnlyBuildable>false</ShowOnlyBuildable>
+              <InstantBuildingEnabled>false</InstantBuildingEnabled>
+              <MaxNumberOfProjections>5</MaxNumberOfProjections>
+              <MaxNumberOfBlocks>200</MaxNumberOfBlocks>
+              <ProjectionsRemaining>0</ProjectionsRemaining>
+              <GetOwnershipFromProjector>false</GetOwnershipFromProjector>
+              <Scale>1</Scale>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
+              <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
+              <EntityId>101829690377066185</EntityId>
+              <Min x="0" y="2" z="0" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Small Merge Block Ship</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
+              <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
+              <EntityId>90507069989121467</EntityId>
+              <Min x="-1" y="3" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Battery</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <CurrentStoredPower>1</CurrentStoredPower>
+              <ProducerEnabled>true</ProducerEnabled>
+              <MaxStoredPower>0</MaxStoredPower>
+              <SemiautoEnabled>false</SemiautoEnabled>
+              <OnlyDischargeEnabled>false</OnlyDischargeEnabled>
+              <ChargeMode>0</ChargeMode>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>79605640211475225</EntityId>
+              <Min x="-1" y="2" z="2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Up Starboard Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>127638831048221252</EntityId>
+              <Min x="1" y="2" z="2" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Up Port Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>103447605727800350</EntityId>
+              <Min x="-1" y="2" z="3" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Up Starboard Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>10</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>136742026144049588</EntityId>
+              <Min x="1" y="2" z="3" />
+              <BlockOrientation Forward="Down" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Up Port Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>4</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
+              <SubtypeName>SmallBlockGyro</SubtypeName>
+              <EntityId>77349151059397551</EntityId>
+              <Min x="0" y="4" z="2" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Gyroscope</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="2" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
+              <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
+              <EntityId>123141007055641194</EntityId>
+              <Min x="0" y="3" z="2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Antenna</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>5000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
+              <EnableBroadcasting>true</EnableBroadcasting>
+              <AttachedPB>0</AttachedPB>
+              <IgnoreAllied>false</IgnoreAllied>
+              <IgnoreOther>true</IgnoreOther>
+              <HudText />
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="3" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="3" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+              <SubtypeName />
+              <EntityId>127251016527629484</EntityId>
+              <Min x="-1" y="3" z="4" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Gatling Gun Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>false</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <GunBase>
+                <RemainingAmmo>50</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                <RemainingAmmosList>
+                  <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="140" />
+                </RemainingAmmosList>
+                <LastShootTime>638016445265532315</LastShootTime>
+              </GunBase>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallGatlingGun">
+              <SubtypeName />
+              <EntityId>136286810572905763</EntityId>
+              <Min x="1" y="3" z="4" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.064</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Gatling Gun Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsShooting>false</IsShooting>
+              <IsShootingFromTerminal>false</IsShootingFromTerminal>
+              <IsLargeTurret>false</IsLargeTurret>
+              <MinFov>0.1</MinFov>
+              <MaxFov>1.04719758</MaxFov>
+              <GunBase>
+                <RemainingAmmo>37</RemainingAmmo>
+                <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
+                <RemainingAmmosList>
+                  <RemainingAmmoIns SubtypeName="NATO_25x184mm" Amount="131" />
+                </RemainingAmmosList>
+                <LastShootTime>638016445265532315</LastShootTime>
+              </GunBase>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
+              <SubtypeName>SmallBlockSmallContainer</SubtypeName>
+              <EntityId>107908559770789754</EntityId>
+              <Min x="0" y="3" z="4" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyInventoryBase</TypeId>
+                    <Component xsi:type="MyObjectBuilder_Inventory">
+                      <Items />
+                      <nextItemId>0</nextItemId>
+                      <Volume>0.125</Volume>
+                      <Mass>9223372036854.775807</Mass>
+                      <MaxItemCount>2147483647</MaxItemCount>
+                      <Size xsi:nil="true" />
+                      <InventoryFlags>CanReceive CanSend</InventoryFlags>
+                      <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Small Cargo Container</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>138459978498855567</EntityId>
+              <Min x="1" y="2" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Forward Port Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>7</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>132518106373651322</EntityId>
+              <Min x="-1" y="2" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Forward Starboard Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>6</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>122460494670609140</EntityId>
+              <Min x="2" y="3" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Forward Port Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>8</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>75210118413893628</EntityId>
+              <Min x="-2" y="3" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Forward Starboard Dorsal</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>9</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
+              <SubtypeName>SmallBlockRemoteControl</SubtypeName>
+              <EntityId>101612359336493389</EntityId>
+              <Min x="0" y="3" z="5" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Remote Control</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <UseSingleWeaponMode>false</UseSingleWeaponMode>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot>0</SelectedSlot>
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                      <DefinitionId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>87144050175521147</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>3</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>133635314044729520</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>4</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>72801823461075349</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>5</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Recharge</Action>
+                      <BlockEntityId>90507069989121467</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>7</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>101829690377066185</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>101612359336493389</BlockEntityId>
+                      <GroupName>Heimdall Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                      <DefinitionId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>4</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>87144050175521147</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>5</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>133635314044729520</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>6</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>View</Action>
+                      <BlockEntityId>72801823461075349</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>7</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>Recharge</Action>
+                      <BlockEntityId>90507069989121467</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>8</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
+                      <Action>OnOff</Action>
+                      <BlockEntityId>101829690377066185</BlockEntityId>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>9</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>101612359336493389</BlockEntityId>
+                      <GroupName>Heimdall Thrusters</GroupName>
+                    </Data>
+                  </Slot>
+                </SlotsGamepad>
+              </Toolbar>
+              <SelectedGunId Type="MyObjectBuilder_SmallGatlingGun" Subtype="" />
+              <BuildToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </BuildToolbar>
+              <OnLockedToolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots />
+                <SlotsGamepad />
+              </OnLockedToolbar>
+              <IsTargetLockingEnabled>false</IsTargetLockingEnabled>
+              <PreviousControlledEntityId xsi:nil="true" />
+              <AutoPilotEnabled>false</AutoPilotEnabled>
+              <FlightMode>0</FlightMode>
+              <BindedCamera>87144050175521147</BindedCamera>
+              <CurrentWaypointIndex>-1</CurrentWaypointIndex>
+              <Waypoints />
+              <Direction>0</Direction>
+              <DockingModeEnabled>false</DockingModeEnabled>
+              <CollisionAvoidance>false</CollisionAvoidance>
+              <Coords />
+              <Names />
+              <WaypointThresholdDistance>0</WaypointThresholdDistance>
+              <IsMainRemoteControl>false</IsMainRemoteControl>
+              <WaitForFreeWay>false</WaitForFreeWay>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>87144050175521147</EntityId>
+              <Min x="0" y="3" z="6" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Camera Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>1</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="4" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="4" z="4" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="4" z="4" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="4" z="5" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="4" z="5" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="4" z="5" />
+              <BlockOrientation Forward="Down" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="4" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="5" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="2" z="6" />
+              <BlockOrientation Forward="Forward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Slope</SubtypeName>
+              <EntityId>109667751578295719</EntityId>
+              <Min x="0" y="4" z="6" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Face</SubtypeName>
+              <EntityId>105306082570956450</EntityId>
+              <Min x="-1" y="4" z="6" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Face</SubtypeName>
+              <EntityId>128650433324531841</EntityId>
+              <Min x="1" y="4" z="6" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Flat</SubtypeName>
+              <EntityId>73370587862716811</EntityId>
+              <Min x="0" y="3" z="7" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>HalfSlopeArmorBlock</SubtypeName>
+              <Min x="0" y="2" z="7" />
+              <BlockOrientation Forward="Up" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Face</SubtypeName>
+              <EntityId>111151920260222645</EntityId>
+              <Min x="1" y="2" z="6" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallWindow1x1Face</SubtypeName>
+              <EntityId>87256494898066859</EntityId>
+              <Min x="-1" y="2" z="6" />
+              <BlockOrientation Forward="Right" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="2" z="5" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="-1" y="2" z="4" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="2" z="5" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope</SubtypeName>
+              <Min x="1" y="2" z="4" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>89916082337862811</EntityId>
+              <Min x="2" y="4" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Reverse Port</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>11</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>134748188377253105</EntityId>
+              <Min x="-2" y="4" z="-1" />
+              <BlockOrientation Forward="Backward" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Reverse Starboard</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>12</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>75712005747034720</EntityId>
+              <Min x="-3" y="5" z="0" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Left Starboard Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>13</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>111729290137521809</EntityId>
+              <Min x="1" y="5" z="0" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Right Port Fore</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>14</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>143667828627185767</EntityId>
+              <Min x="1" y="5" z="-1" />
+              <BlockOrientation Forward="Right" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Right Port Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>15</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
+              <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
+              <EntityId>99779550476982893</EntityId>
+              <Min x="-3" y="5" z="-1" />
+              <BlockOrientation Forward="Left" Up="Forward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ComponentContainer>
+                <Components>
+                  <ComponentData>
+                    <TypeId>MyTimerComponent</TypeId>
+                    <Component xsi:type="MyObjectBuilder_TimerComponent">
+                      <Repeat>true</Repeat>
+                      <TimeToEvent>0</TimeToEvent>
+                      <SetTimeMinutes>0</SetTimeMinutes>
+                      <TimerEnabled>true</TimerEnabled>
+                      <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
+                      <TimerType>Frame100</TimerType>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <TimerTickInFrames>100</TimerTickInFrames>
+                      <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
+                    </Component>
+                  </ComponentData>
+                </Components>
+              </ComponentContainer>
+              <CustomName>Heimdall Atmospheric Thruster Left Starboard Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>16</NumberInGrid>
+              <Enabled>true</Enabled>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="3" z="2" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="-2" y="3" z="3" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="2" y="3" z="3" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="3" z="2" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="2" y="5" z="1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerBase</SubtypeName>
+              <Min x="-1" y="5" z="1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerBase</SubtypeName>
+              <Min x="1" y="5" z="1" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-2" y="5" z="1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="2" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCorner</SubtypeName>
+              <Min x="1" y="5" z="2" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCorner</SubtypeName>
+              <Min x="-1" y="5" z="2" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="2" y="5" z="2" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-2" y="5" z="2" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorBlock</SubtypeName>
+              <Min x="0" y="5" z="0" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>72801823461075349</EntityId>
+              <Min x="0" y="2" z="-1" />
+              <BlockOrientation Forward="Down" Up="Backward" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Camera Ventral</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
+              <SubtypeName>SmallCameraBlock</SubtypeName>
+              <EntityId>133635314044729520</EntityId>
+              <Min x="0" y="5" z="-1" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Heimdall Camera Aft</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>3</NumberInGrid>
+              <Enabled>true</Enabled>
+              <IsActive>false</IsActive>
+              <Fov>1.04719758</Fov>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-3" y="5" z="1" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="3" y="5" z="1" />
+              <BlockOrientation Forward="Down" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Tip</SubtypeName>
+              <Min x="0" y="5" z="4" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="0" y="5" z="3" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="-1" y="5" z="3" />
+              <BlockOrientation Forward="Backward" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlopedCornerTip</SubtypeName>
+              <Min x="1" y="5" z="3" />
+              <BlockOrientation Forward="Right" Up="Up" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-3" y="4" z="1" />
+              <BlockOrientation Forward="Forward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="-3" y="4" z="0" />
+              <BlockOrientation Forward="Backward" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-3" y="3" z="0" />
+              <BlockOrientation Forward="Right" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="3" y="4" z="1" />
+              <BlockOrientation Forward="Forward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
+              <Min x="3" y="4" z="0" />
+              <BlockOrientation Forward="Backward" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="3" y="3" z="0" />
+              <BlockOrientation Forward="Up" Up="Right" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="-3" y="3" z="1" />
+              <BlockOrientation Forward="Up" Up="Left" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+              <SubtypeName>SmallBlockArmorCorner2Base</SubtypeName>
+              <Min x="3" y="3" z="1" />
+              <BlockOrientation Forward="Left" Up="Down" />
+              <ColorMaskHSV x="0.122222222" y="-0.1" z="0.26" />
+              <BuiltBy>144115188075855895</BuiltBy>
+            </MyObjectBuilder_CubeBlock>
+          </CubeBlocks>
+          <ConveyorLines>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="-1" y="3" z="4" />
+              <StartDirection>Right</StartDirection>
+              <EndPosition x="0" y="3" z="4" />
+              <EndDirection>Left</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+            <MyObjectBuilder_ConveyorLine>
+              <StartPosition x="1" y="3" z="4" />
+              <StartDirection>Left</StartDirection>
+              <EndPosition x="0" y="3" z="4" />
+              <EndDirection>Right</EndDirection>
+              <Sections />
+              <ConveyorLineType>SMALL_LINE</ConveyorLineType>
+            </MyObjectBuilder_ConveyorLine>
+          </ConveyorLines>
+          <BlockGroups>
+            <MyObjectBuilder_BlockGroup>
+              <Name>Heimdall Thrusters</Name>
+              <Blocks>
+                <Vector3I>
+                  <X>-1</X>
+                  <Y>3</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-1</X>
+                  <Y>3</Y>
+                  <Z>3</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>4</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>4</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>5</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>5</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>5</Y>
+                  <Z>-1</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>5</Y>
+                  <Z>-1</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>3</Y>
+                  <Z>2</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>3</Y>
+                  <Z>3</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-1</X>
+                  <Y>2</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>1</X>
+                  <Y>2</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>2</X>
+                  <Y>3</Y>
+                  <Z>0</Z>
+                </Vector3I>
+                <Vector3I>
+                  <X>-2</X>
+                  <Y>3</Y>
+                  <Z>0</Z>
+                </Vector3I>
+              </Blocks>
+            </MyObjectBuilder_BlockGroup>
+          </BlockGroups>
+          <DisplayName>Heimdall</DisplayName>
+          <DestructibleBlocks>true</DestructibleBlocks>
+          <IsRespawnGrid>false</IsRespawnGrid>
+          <LocalCoordSys>0</LocalCoordSys>
+          <TargetingTargets />
+        </CubeGrid>
+      </CubeGrids>
+      <EnvironmentType>None</EnvironmentType>
+      <WorkshopId>0</WorkshopId>
+      <OwnerSteamId>76561198009391911</OwnerSteamId>
+      <Points>0</Points>
+    </ShipBlueprint>
+  </ShipBlueprints>
+</Definitions>
