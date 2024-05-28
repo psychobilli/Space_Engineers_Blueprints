@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="NCC-1701 D Scaffold" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Galaxy Scaffold" />
       <DisplayName>PsychoBilli</DisplayName>
       <CubeGrids>
         <CubeGrid>
@@ -19249,11 +19249,12 @@
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <XMirroxPlane x="0" y="74" z="31" />
-          <DisplayName>NCC-1701 D Scaffold</DisplayName>
+          <DisplayName>Galaxy Scaffold</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />
+          <NPCGridClaimElapsed xsi:nil="true" />
         </CubeGrid>
       </CubeGrids>
       <EnvironmentType>None</EnvironmentType>
