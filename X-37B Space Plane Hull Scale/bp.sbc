@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="XB-37 Space Plane Hull Scale" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="X-37B Space Plane Hull Scale" />
       <DisplayName>PsychoBilli</DisplayName>
       <CubeGrids>
         <CubeGrid>
@@ -1370,7 +1370,7 @@
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <XMirroxPlane x="0" y="3" z="-16" />
-          <DisplayName>XB-37 Space Plane Hull Scale</DisplayName>
+          <DisplayName>X-37B Space Plane Hull Scale</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>0</LocalCoordSys>
