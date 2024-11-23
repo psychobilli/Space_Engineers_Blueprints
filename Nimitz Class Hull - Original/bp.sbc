@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ShipBlueprints>
     <ShipBlueprint xsi:type="MyObjectBuilder_ShipBlueprintDefinition">
-      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Nimitz Class Hull" />
+      <Id Type="MyObjectBuilder_ShipBlueprintDefinition" Subtype="Nimitz Class Hull - Original" />
       <DisplayName>PsychoBilli</DisplayName>
       <CubeGrids>
         <CubeGrid>
@@ -74100,7 +74100,7 @@
           </CubeBlocks>
           <IsStatic>true</IsStatic>
           <XMirroxPlane x="0" y="16" z="0" />
-          <DisplayName>Nimitz Class Hull</DisplayName>
+          <DisplayName>Nimitz Class Hull - Original</DisplayName>
           <DestructibleBlocks>true</DestructibleBlocks>
           <IsRespawnGrid>false</IsRespawnGrid>
           <LocalCoordSys>29</LocalCoordSys>
