@@ -13,14 +13,14 @@
           <EntityId>117983992541678034</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="9631.8603476614662" y="-10424.404974403995" z="-960.96456101304284" />
-            <Forward x="0.163505316" y="0.831061244" z="0.531604469" />
-            <Up x="-0.940382957" y="0.2941916" z="-0.170678765" />
+            <Position x="9604.1657675833412" y="-11009.632515387144" z="-2098.4249995083719" />
+            <Forward x="0.16599524" y="-0.856454551" z="-0.488805652" />
+            <Up x="-0.9241936" y="0.03778261" z="-0.380050242" />
             <Orientation>
-              <X>-0.484555155</X>
-              <Y>0.7287033</Y>
-              <Z>-0.3436721</Z>
-              <W>-0.340715826</W>
+              <X>-0.452044249</X>
+              <Y>0.226391584</Y>
+              <Z>0.526084363</Z>
+              <W>0.6838407</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -196,7 +196,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -520,8 +520,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-0.564877331</Rotation>
-              <Elevation>0.08307431</Elevation>
+              <Rotation>-1.59623587</Rotation>
+              <Elevation>0.9106069</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>LargeCalibreAmmo</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -964,7 +964,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>70</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>50</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -1815,8 +1815,8 @@
               <NumberInGrid>29</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -1835,8 +1835,8 @@
               <NumberInGrid>30</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeBlockArmorCornerSquare</SubtypeName>
@@ -2788,7 +2788,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>50</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -3336,7 +3336,7 @@
               <TopBlockId>86790580360562219</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
-              <Velocity>-0.1</Velocity>
+              <Velocity>-0.05026989</Velocity>
               <MaxLimit>1</MaxLimit>
               <MinLimit>0</MinLimit>
               <Reverse>false</Reverse>
@@ -4500,8 +4500,8 @@
               <NumberInGrid>10</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4520,8 +4520,8 @@
               <NumberInGrid>9</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4541,8 +4541,8 @@
               <NumberInGrid>8</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4561,8 +4561,8 @@
               <NumberInGrid>7</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4582,13 +4582,14 @@
               <NumberInGrid>6</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
               <EntityId>130255120157748716</EntityId>
               <Min x="-3" y="6" z="11" />
+              <IntegrityPercent>0.9994658</IntegrityPercent>
               <BlockOrientation Forward="Up" Up="Left" />
               <ColorMaskHSV x="0" y="-0.8" z="0" />
               <Owner>144115188075855895</Owner>
@@ -4602,8 +4603,8 @@
               <NumberInGrid>5</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4623,8 +4624,8 @@
               <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4643,8 +4644,8 @@
               <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4663,8 +4664,8 @@
               <NumberInGrid>2</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirtightHangarDoor">
               <SubtypeName />
@@ -4684,8 +4685,8 @@
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
               <AnyoneCanUse>false</AnyoneCanUse>
-              <Open>false</Open>
-              <CurrOpening>0</CurrOpening>
+              <Open>true</Open>
+              <CurrOpening>1</CurrOpening>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -5881,7 +5882,7 @@
                       <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>200</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>220</FramesFromLastTrigger>
                       <TimerTickInFrames>300</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -6418,7 +6419,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>40</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -6478,7 +6479,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>40</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -9266,7 +9267,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -9611,7 +9612,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>10</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -10044,7 +10045,7 @@
               <TopBlockId>124034785984611413</TopBlockId>
               <ShareInertiaTensor>false</ShareInertiaTensor>
               <SafetyDetach>5</SafetyDetach>
-              <Velocity>-0.1</Velocity>
+              <Velocity>-0.05026989</Velocity>
               <MaxLimit>0.6966437</MaxLimit>
               <MinLimit>0</MinLimit>
               <Reverse>false</Reverse>
@@ -10295,7 +10296,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>10</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -11669,14 +11670,14 @@
                 <SlotsGamepad />
               </OnLockedToolbar>
               <PilotRelativeWorld>
-                <Position x="0.373340904712677" y="-1.168799877166748" z="2.2811968326568604" />
-                <Forward x="-0.168399841" y="-0.000243656163" z="-0.985718548" />
-                <Up x="3.981786E-05" y="0.9999998" z="-0.000253820064" />
+                <Position x="0.16230016946792603" y="-1.1716018915176392" z="3.1152200698852539" />
+                <Forward x="-0.06314798" y="-0.00175438367" z="-0.9980029" />
+                <Up x="-0.0257110335" y="0.9996697" z="-0.00013024779" />
                 <Orientation>
-                  <X>-0.000124856626</X>
-                  <Y>0.08450217</Y>
-                  <Z>-3.055487E-05</Z>
-                  <W>0.9964233</W>
+                  <X>-0.000471486215</X>
+                  <Y>0.03159843</Y>
+                  <Z>0.0128481</Z>
+                  <W>0.999417961</W>
                 </Orientation>
               </PilotRelativeWorld>
               <PilotGunDefinition xsi:nil="true" />
@@ -11688,7 +11689,7 @@
                 <IsTargetLocked>false</IsTargetLocked>
                 <LockingProgress>0</LockingProgress>
               </TargetData>
-              <SitAnimation>802839</SitAnimation>
+              <SitAnimation>539766</SitAnimation>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeSteelCatwalkPlate</SubtypeName>
@@ -12441,8 +12442,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-2.16846132</Rotation>
-              <Elevation>1.55765855</Elevation>
+              <Rotation>0.526381969</Rotation>
+              <Elevation>0.7863426</Elevation>
               <GunBase>
                 <RemainingAmmo>123</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -12631,7 +12632,7 @@
                       <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>20</FramesFromLastTrigger>
                       <TimerTickInFrames>300</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -12705,7 +12706,7 @@
                       <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>110</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>130</FramesFromLastTrigger>
                       <TimerTickInFrames>300</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -12780,7 +12781,7 @@
                       <TimerEnabled>false</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>200</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>220</FramesFromLastTrigger>
                       <TimerTickInFrames>300</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -13824,7 +13825,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>10</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -14995,8 +14996,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-2.11131287</Rotation>
-              <Elevation>0.8776471</Elevation>
+              <Rotation>0.113147974</Rotation>
+              <Elevation>1.04719758</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>LargeCalibreAmmo</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15070,8 +15071,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>1.20929575</Rotation>
-              <Elevation>0.8233471</Elevation>
+              <Rotation>-0.341783762</Rotation>
+              <Elevation>1.04719758</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>LargeCalibreAmmo</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15216,8 +15217,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>2.6610508</Rotation>
-              <Elevation>0.8807515</Elevation>
+              <Rotation>-1.05857885</Rotation>
+              <Elevation>0.58273</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>Missile200mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15290,8 +15291,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-0.4392683</Rotation>
-              <Elevation>1.49076569</Elevation>
+              <Rotation>-0.189233065</Rotation>
+              <Elevation>0.655157566</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>Missile200mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15366,8 +15367,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>0.6122761</Rotation>
-              <Elevation>0.259509921</Elevation>
+              <Rotation>2.07380486</Rotation>
+              <Elevation>1.34276211</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>Missile200mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15483,8 +15484,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>1.41692972</Rotation>
-              <Elevation>0.0383916944</Elevation>
+              <Rotation>0.330610871</Rotation>
+              <Elevation>1.51165044</Elevation>
               <GunBase>
                 <RemainingAmmo>46</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -15557,8 +15558,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-0.8310362</Rotation>
-              <Elevation>1.31578374</Elevation>
+              <Rotation>-1.759212</Rotation>
+              <Elevation>1.186172</Elevation>
               <GunBase>
                 <RemainingAmmo>75</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -15631,8 +15632,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-0.04932302</Rotation>
-              <Elevation>1.44961488</Elevation>
+              <Rotation>-0.437695175</Rotation>
+              <Elevation>1.01179683</Elevation>
               <GunBase>
                 <RemainingAmmo>124</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -15705,8 +15706,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-1.12858915</Rotation>
-              <Elevation>0.8030599</Elevation>
+              <Rotation>-2.54279</Rotation>
+              <Elevation>0.388444334</Elevation>
               <GunBase>
                 <RemainingAmmo>99</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -15779,8 +15780,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-1.21210039</Rotation>
-              <Elevation>1.432418</Elevation>
+              <Rotation>2.13354373</Rotation>
+              <Elevation>1.35308957</Elevation>
               <GunBase>
                 <RemainingAmmo>123</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -15861,8 +15862,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-1.23783636</Rotation>
-              <Elevation>1.48239827</Elevation>
+              <Rotation>0.69190675</Rotation>
+              <Elevation>1.33847725</Elevation>
               <GunBase>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
                 <RemainingAmmosList />
@@ -15934,8 +15935,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>2.09505081</Rotation>
-              <Elevation>1.4900192</Elevation>
+              <Rotation>1.08401871</Rotation>
+              <Elevation>1.26876211</Elevation>
               <GunBase>
                 <RemainingAmmo>89</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -16047,8 +16048,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>-2.10538673</Rotation>
-              <Elevation>0.8290742</Elevation>
+              <Rotation>-0.478983164</Rotation>
+              <Elevation>1.25228918</Elevation>
               <GunBase>
                 <RemainingAmmo>135</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -16121,8 +16122,8 @@
               <Target>0</Target>
               <IsPotentialTarget>true</IsPotentialTarget>
               <PreviousControlledEntityId xsi:nil="true" />
-              <Rotation>1.57804346</Rotation>
-              <Elevation>0.008642033</Elevation>
+              <Rotation>1.054603</Rotation>
+              <Elevation>1.29138446</Elevation>
               <GunBase>
                 <RemainingAmmo>31</RemainingAmmo>
                 <CurrentAmmoMagazineName>NATO_25x184mm</CurrentAmmoMagazineName>
@@ -17840,7 +17841,7 @@
               <NumberInGrid>3</NumberInGrid>
               <Enabled>true</Enabled>
               <IsStockpiling>false</IsStockpiling>
-              <FilledRatio>0.486778945</FilledRatio>
+              <FilledRatio>0.4810227</FilledRatio>
               <AutoRefill>false</AutoRefill>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
@@ -19863,7 +19864,7 @@ Group "Construction Welders"</Text>
               <NumberInGrid>4</NumberInGrid>
               <Enabled>true</Enabled>
               <IsStockpiling>false</IsStockpiling>
-              <FilledRatio>0.5</FilledRatio>
+              <FilledRatio>0.44</FilledRatio>
               <AutoRefill>false</AutoRefill>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
@@ -19889,6 +19890,77 @@ Group "Construction Welders"</Text>
                 <Slots />
                 <SlotsGamepad />
               </Toolbar>
+            </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ButtonPanel">
+              <SubtypeName>ButtonPanelLarge</SubtypeName>
+              <EntityId>73886456893077341</EntityId>
+              <Min x="2" y="5" z="-18" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.2" />
+              <Owner>144115188075855895</Owner>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <ShareMode>Faction</ShareMode>
+              <CustomName>Arleigh Burke Button Panel Repair Bay</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <NumberInGrid>2</NumberInGrid>
+              <Enabled>true</Enabled>
+              <Toolbar>
+                <ToolbarType>Character</ToolbarType>
+                <SelectedSlot xsi:nil="true" />
+                <Slots>
+                  <Slot>
+                    <Index>0</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>Reverse</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>73886456893077341</BlockEntityId>
+                      <GroupName>Construction Welder Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>1</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>73886456893077341</BlockEntityId>
+                      <GroupName>Construction Welder Pistons</GroupName>
+                    </Data>
+                  </Slot>
+                  <Slot>
+                    <Index>2</Index>
+                    <Item />
+                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
+                      <Action>OnOff</Action>
+                      <GridEntityId>0</GridEntityId>
+                      <BlockEntityId>73886456893077341</BlockEntityId>
+                      <GroupName>Construction Welders</GroupName>
+                    </Data>
+                  </Slot>
+                </Slots>
+                <SlotsGamepad />
+              </Toolbar>
+              <AnyoneCanUse>false</AnyoneCanUse>
+              <CustomButtonNames>
+                <dictionary>
+                  <item>
+                    <Key>0</Key>
+                    <Value>Construction Welder Pistons</Value>
+                  </item>
+                  <item>
+                    <Key>1</Key>
+                    <Value>Construction Welder Pistons</Value>
+                  </item>
+                  <item>
+                    <Key>2</Key>
+                    <Value>Construction Welders</Value>
+                  </item>
+                </dictionary>
+              </CustomButtonNames>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <XMirroxPlane x="0" y="7" z="24" />
@@ -21093,7 +21165,7 @@ Group "Construction Welders"</Text>
           <LocalCoordSys>0</LocalCoordSys>
           <TargetingTargets />
           <OxygenRooms>
-            <OxygenRoom OxygenAmount="228592.2">
+            <OxygenRoom OxygenAmount="242963.9">
               <StartingPosition>
                 <X>-11</X>
                 <Y>0</Y>
@@ -21105,13 +21177,6 @@ Group "Construction Welders"</Text>
                 <X>-1</X>
                 <Y>2</Y>
                 <Z>17</Z>
-              </StartingPosition>
-            </OxygenRoom>
-            <OxygenRoom OxygenAmount="1140.625">
-              <StartingPosition>
-                <X>-2</X>
-                <Y>3</Y>
-                <Z>12</Z>
               </StartingPosition>
             </OxygenRoom>
             <OxygenRoom OxygenAmount="5765.625">
@@ -21147,13 +21212,6 @@ Group "Construction Welders"</Text>
                 <X>1</X>
                 <Y>2</Y>
                 <Z>-17</Z>
-              </StartingPosition>
-            </OxygenRoom>
-            <OxygenRoom OxygenAmount="31.25">
-              <StartingPosition>
-                <X>0</X>
-                <Y>5</Y>
-                <Z>-11</Z>
               </StartingPosition>
             </OxygenRoom>
             <OxygenRoom OxygenAmount="140.172424">
@@ -21198,6 +21256,20 @@ Group "Construction Welders"</Text>
                 <Z>15</Z>
               </StartingPosition>
             </OxygenRoom>
+            <OxygenRoom OxygenAmount="5765.625">
+              <StartingPosition>
+                <X>0</X>
+                <Y>7</Y>
+                <Z>4</Z>
+              </StartingPosition>
+            </OxygenRoom>
+            <OxygenRoom OxygenAmount="31.25">
+              <StartingPosition>
+                <X>0</X>
+                <Y>5</Y>
+                <Z>-10</Z>
+              </StartingPosition>
+            </OxygenRoom>
             <OxygenRoom OxygenAmount="281.25">
               <StartingPosition>
                 <X>1</X>
@@ -21220,14 +21292,14 @@ Group "Construction Welders"</Text>
           <EntityId>115947046928990325</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="9634.3046835989662" y="-10381.161810341495" z="-940.90889695054284" />
-            <Forward x="-0.162785649" y="-0.829923153" z="-0.5335994" />
-            <Up x="-0.940386653" y="0.294184744" z="-0.170669645" />
+            <Position x="9603.9497031302162" y="-11051.938179449644" z="-2120.5240414471536" />
+            <Forward x="-0.166817456" y="0.855230868" z="0.49066478" />
+            <Up x="-0.92419374" y="0.037774682" z="-0.380050957" />
             <Orientation>
-              <X>-0.343087226</X>
-              <Y>0.339840323</Y>
-              <Z>0.484972984</Z>
-              <W>0.729109645</W>
+              <X>-0.526622236</X>
+              <Y>0.6841063</Y>
+              <Z>-0.4514218</Z>
+              <W>-0.225579068</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -21300,7 +21372,7 @@ Group "Construction Welders"</Text>
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>0</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>60</FramesFromLastTrigger>
                       <TimerTickInFrames>80</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -21349,9 +21421,9 @@ Group "Construction Welders"</Text>
               <ProjectedGrids>
                 <MyObjectBuilder_CubeGrid>
                   <SubtypeName />
-                  <EntityId>127215949593909549</EntityId>
+                  <EntityId>97212651759441291</EntityId>
                   <PersistentFlags>CastShadows InScene</PersistentFlags>
-                  <Name>127215949593909549</Name>
+                  <Name>97212651759441291</Name>
                   <PositionAndOrientation>
                     <Position x="0" y="0" z="0" />
                     <Forward x="-0.170091063" y="0.8356629" z="0.5222415" />
@@ -21368,7 +21440,7 @@ Group "Construction Welders"</Text>
                   <CubeBlocks>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
                       <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
-                      <EntityId>114217699691538903</EntityId>
+                      <EntityId>90321854468642808</EntityId>
                       <Min x="-6" y="6" z="4" />
                       <BlockOrientation Forward="Backward" Up="Down" />
                       <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -21397,7 +21469,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
                       <SubtypeName>SmallProjector</SubtypeName>
-                      <EntityId>107041836732087044</EntityId>
+                      <EntityId>81263901656366959</EntityId>
                       <Min x="-6" y="7" z="3" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                       <CustomName>AH-64 Apache Projector</CustomName>
@@ -21410,9 +21482,9 @@ Group "Construction Welders"</Text>
                       <ProjectedGrids>
                         <MyObjectBuilder_CubeGrid>
                           <SubtypeName />
-                          <EntityId>86259466136980171</EntityId>
+                          <EntityId>87104524023840487</EntityId>
                           <PersistentFlags>CastShadows InScene</PersistentFlags>
-                          <Name>86259466136980171</Name>
+                          <Name>87104524023840487</Name>
                           <PositionAndOrientation>
                             <Position x="0" y="0" z="0" />
                             <Forward x="-0.14147979" y="0.7723166" z="0.619282067" />
@@ -21429,7 +21501,7 @@ Group "Construction Welders"</Text>
                           <CubeBlocks>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_MergeBlock">
                               <SubtypeName>SmallShipSmallMergeBlock</SubtypeName>
-                              <EntityId>103222123991923012</EntityId>
+                              <EntityId>72522548242880085</EntityId>
                               <Min x="-6" y="6" z="4" />
                               <BlockOrientation Forward="Backward" Up="Down" />
                               <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -21458,7 +21530,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Projector">
                               <SubtypeName>SmallProjector</SubtypeName>
-                              <EntityId>80945130298067813</EntityId>
+                              <EntityId>83734418349436041</EntityId>
                               <Min x="-6" y="7" z="3" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                               <CustomName>AH-64 Apache Projector</CustomName>
@@ -21505,7 +21577,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BasicMissionBlock">
                               <SubtypeName>SmallBasicMission</SubtypeName>
-                              <EntityId>135373553744517181</EntityId>
+                              <EntityId>97120168276497609</EntityId>
                               <Min x="-6" y="7" z="2" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                               <ComponentContainer>
@@ -21577,7 +21649,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OffensiveCombatBlock">
                               <SubtypeName>SmallOffensiveCombat</SubtypeName>
-                              <EntityId>108858635599349404</EntityId>
+                              <EntityId>89497605739955572</EntityId>
                               <Min x="-7" y="7" z="2" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                               <ComponentContainer>
@@ -21659,7 +21731,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
                               <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-                              <EntityId>142711422764467446</EntityId>
+                              <EntityId>113058013944621730</EntityId>
                               <Min x="-6" y="8" z="2" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -21686,7 +21758,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_FlightMovementBlock">
                               <SubtypeName>SmallFlightMovement</SubtypeName>
-                              <EntityId>80699283780270861</EntityId>
+                              <EntityId>73073009836840765</EntityId>
                               <Min x="-5" y="7" z="2" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                               <ComponentContainer>
@@ -21744,7 +21816,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
                               <SubtypeName>SmallAirVent</SubtypeName>
-                              <EntityId>99514082721800938</EntityId>
+                              <EntityId>116225867425384468</EntityId>
                               <Min x="-8" y="6" z="1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -21782,7 +21854,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
                               <SubtypeName>SmallAirVent</SubtypeName>
-                              <EntityId>85635553104796440</EntityId>
+                              <EntityId>97349961080988348</EntityId>
                               <Min x="-4" y="6" z="1" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -21808,7 +21880,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>86047019358114632</EntityId>
+                              <EntityId>77405957224836846</EntityId>
                               <Min x="-8" y="7" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -21840,7 +21912,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>95052331608547229</EntityId>
+                              <EntityId>95260643469089795</EntityId>
                               <Min x="-4" y="7" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -21872,7 +21944,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>133863299636226792</EntityId>
+                              <EntityId>122362838996088258</EntityId>
                               <Min x="-5" y="6" z="5" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -21904,7 +21976,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>87830155654066658</EntityId>
+                              <EntityId>108780768207889293</EntityId>
                               <Min x="-7" y="6" z="5" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -21936,7 +22008,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>137703799407489995</EntityId>
+                              <EntityId>79705491256273662</EntityId>
                               <Min x="-8" y="8" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -21980,7 +22052,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>124928649627471601</EntityId>
+                              <EntityId>89700215673682933</EntityId>
                               <Min x="-4" y="8" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22012,7 +22084,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>121590552772282954</EntityId>
+                              <EntityId>88603909649024784</EntityId>
                               <Min x="-8" y="9" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22068,7 +22140,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>83743617478518904</EntityId>
+                              <EntityId>114785253348485883</EntityId>
                               <Min x="-4" y="9" z="4" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22160,7 +22232,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>74611531458923111</EntityId>
+                              <EntityId>81485307684432474</EntityId>
                               <Min x="-7" y="8" z="4" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22210,7 +22282,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>106102057769177217</EntityId>
+                              <EntityId>133347906384821722</EntityId>
                               <Min x="-5" y="8" z="4" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22283,7 +22355,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
                               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-                              <EntityId>133294889925536821</EntityId>
+                              <EntityId>114896904595644068</EntityId>
                               <Min x="-7" y="7" z="0" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22309,7 +22381,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
                               <SubtypeName>ConnectorMedium</SubtypeName>
-                              <EntityId>132447396046451203</EntityId>
+                              <EntityId>107999398874104879</EntityId>
                               <Min x="-7" y="5" z="0" />
                               <BlockOrientation Forward="Down" Up="Forward" />
                               <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -22456,7 +22528,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>SmallBlockConveyor</SubtypeName>
-                              <EntityId>116204167671888997</EntityId>
+                              <EntityId>133027421629314531</EntityId>
                               <Min x="-6" y="6" z="-1" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -22478,14 +22550,14 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>SmallBlockConveyor</SubtypeName>
-                              <EntityId>103944203887269889</EntityId>
+                              <EntityId>143933965344358438</EntityId>
                               <Min x="-6" y="7" z="-1" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                              <EntityId>113756720482219503</EntityId>
+                              <EntityId>102271715983649105</EntityId>
                               <Min x="-7" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -22516,7 +22588,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                              <EntityId>107119145495162864</EntityId>
+                              <EntityId>123168004156603153</EntityId>
                               <Min x="-6" y="8" z="-1" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -22678,7 +22750,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>142234419850303545</EntityId>
+                              <EntityId>82372276933849726</EntityId>
                               <Min x="-4" y="8" z="0" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22715,7 +22787,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>80769461258430799</EntityId>
+                              <EntityId>74535598489707846</EntityId>
                               <Min x="-10" y="8" z="0" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22770,7 +22842,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
                               <SubtypeName>SmallCameraBlock</SubtypeName>
-                              <EntityId>92996028806545856</EntityId>
+                              <EntityId>113445313946885317</EntityId>
                               <Min x="-6" y="5" z="-1" />
                               <BlockOrientation Forward="Down" Up="Forward" />
                               <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -22786,13 +22858,13 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>138491139462768167</EntityId>
+                              <EntityId>138529845102604681</EntityId>
                               <Min x="-6" y="6" z="-2" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
                               <SubtypeName>SmallBlockGyro</SubtypeName>
-                              <EntityId>77101353912710364</EntityId>
+                              <EntityId>78459361882295306</EntityId>
                               <Min x="-7" y="8" z="-1" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -22806,7 +22878,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>104969425784129788</EntityId>
+                              <EntityId>102469252173249861</EntityId>
                               <Min x="-6" y="9" z="-1" />
                               <BlockOrientation Forward="Down" Up="Forward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -22825,7 +22897,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>112094141186778832</EntityId>
+                              <EntityId>89859065415114163</EntityId>
                               <Min x="-4" y="8" z="-1" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22931,7 +23003,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                              <EntityId>101845673860645518</EntityId>
+                              <EntityId>134865566718980318</EntityId>
                               <Min x="-1" y="7" z="-1" />
                               <BlockOrientation Forward="Right" Up="Down" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22943,7 +23015,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>105064139353395516</EntityId>
+                              <EntityId>105076479826954168</EntityId>
                               <Min x="-4" y="8" z="-2" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -22980,7 +23052,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>80309702025734703</EntityId>
+                              <EntityId>93911320389324934</EntityId>
                               <Min x="-10" y="8" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23024,20 +23096,20 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>101861152955513394</EntityId>
+                              <EntityId>88633000468470789</EntityId>
                               <Min x="-6" y="6" z="-3" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>109288760764388774</EntityId>
+                              <EntityId>83141800534726413</EntityId>
                               <Min x="-8" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Forward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-                              <EntityId>122798005093718111</EntityId>
+                              <EntityId>127505650639377117</EntityId>
                               <Min x="-6" y="10" z="-1" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
@@ -23055,7 +23127,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>ConveyorTubeSmallT</SubtypeName>
-                              <EntityId>114544897072693937</EntityId>
+                              <EntityId>115707161035924263</EntityId>
                               <Min x="-2" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23068,14 +23140,14 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmallCurved</SubtypeName>
-                              <EntityId>80390246660449701</EntityId>
+                              <EntityId>134918695245789474</EntityId>
                               <Min x="0" y="7" z="-1" />
                               <BlockOrientation Forward="Up" Up="Right" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                              <EntityId>92590928363596584</EntityId>
+                              <EntityId>143981540108503117</EntityId>
                               <Min x="-5" y="12" z="0" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23088,7 +23160,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                              <EntityId>78404616835636070</EntityId>
+                              <EntityId>128237607859392361</EntityId>
                               <Min x="-7" y="12" z="0" />
                               <BlockOrientation Forward="Left" Up="Down" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23169,7 +23241,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>118303083873551749</EntityId>
+                              <EntityId>126226547725362968</EntityId>
                               <Min x="-3" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Forward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23193,7 +23265,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                              <EntityId>118964591460683838</EntityId>
+                              <EntityId>93308618929905723</EntityId>
                               <Min x="-11" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23206,7 +23278,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>114633686303400634</EntityId>
+                              <EntityId>140204896009347635</EntityId>
                               <Min x="-10" y="8" z="-2" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23255,14 +23327,14 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-                              <EntityId>119116364730790074</EntityId>
+                              <EntityId>130275381752979171</EntityId>
                               <Min x="-6" y="10" z="0" />
                               <BlockOrientation Forward="Backward" Up="Down" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
                               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-                              <EntityId>95406263467879438</EntityId>
+                              <EntityId>104854853092550769</EntityId>
                               <Min x="-6" y="10" z="-2" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                               <ComponentContainer>
@@ -23355,14 +23427,14 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>90039096943301767</EntityId>
+                              <EntityId>104482994335344583</EntityId>
                               <Min x="-4" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Forward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                               <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                              <EntityId>86447058179618933</EntityId>
+                              <EntityId>102343843849159876</EntityId>
                               <Min x="-5" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -23393,7 +23465,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>72556317426867501</EntityId>
+                              <EntityId>87191362301510645</EntityId>
                               <Min x="-9" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Forward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23463,7 +23535,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>SmallBlockConveyor</SubtypeName>
-                              <EntityId>92301028989846632</EntityId>
+                              <EntityId>115787301935399377</EntityId>
                               <Min x="-6" y="12" z="0" />
                               <BlockOrientation Forward="Right" Up="Down" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -23505,14 +23577,14 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>ConveyorTubeSmallT</SubtypeName>
-                              <EntityId>120385592104028944</EntityId>
+                              <EntityId>136831671745285613</EntityId>
                               <Min x="-10" y="7" z="-1" />
                               <BlockOrientation Forward="Right" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                               <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                              <EntityId>140865595324888241</EntityId>
+                              <EntityId>97888699885777899</EntityId>
                               <Min x="-12" y="6" z="-8" />
                               <BlockOrientation Forward="Forward" Up="Right" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23540,7 +23612,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeDuctSmallCurved</SubtypeName>
-                              <EntityId>91826276763768185</EntityId>
+                              <EntityId>127353194177794621</EntityId>
                               <Min x="-12" y="7" z="-1" />
                               <BlockOrientation Forward="Left" Up="Up" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23565,7 +23637,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
                               <SubtypeName>SmallBlockGyro</SubtypeName>
-                              <EntityId>105062228607902931</EntityId>
+                              <EntityId>142261233096132146</EntityId>
                               <Min x="-5" y="8" z="-1" />
                               <BlockOrientation Forward="Backward" Up="Up" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -23631,7 +23703,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                               <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                              <EntityId>87061184370631729</EntityId>
+                              <EntityId>93790762618905896</EntityId>
                               <Min x="-6" y="11" z="0" />
                               <BlockOrientation Forward="Down" Up="Forward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -23654,7 +23726,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
                               <SubtypeName>AutoCannonTurret</SubtypeName>
-                              <EntityId>111682191924500658</EntityId>
+                              <EntityId>82531046307316957</EntityId>
                               <Min x="-4" y="10" z="-2" />
                               <BlockOrientation Forward="Forward" Up="Right" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23709,7 +23781,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
                               <SubtypeName>AutoCannonTurret</SubtypeName>
-                              <EntityId>91241178049308880</EntityId>
+                              <EntityId>116935678839456742</EntityId>
                               <Min x="-11" y="10" z="-2" />
                               <BlockOrientation Forward="Forward" Up="Left" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23840,7 +23912,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>93831454363135557</EntityId>
+                              <EntityId>133820588077769416</EntityId>
                               <Min x="-6" y="6" z="9" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -23974,7 +24046,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>89890923672625022</EntityId>
+                              <EntityId>118705102236733050</EntityId>
                               <Min x="-6" y="6" z="10" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24012,7 +24084,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                               <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                              <EntityId>100667805353710048</EntityId>
+                              <EntityId>105590900340433988</EntityId>
                               <Min x="0" y="6" z="-8" />
                               <BlockOrientation Forward="Forward" Up="Left" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24050,7 +24122,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>84512574556571799</EntityId>
+                              <EntityId>74197923655775712</EntityId>
                               <Min x="-8" y="8" z="-5" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                               <ComponentContainer>
@@ -24091,7 +24163,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>91842459693436576</EntityId>
+                              <EntityId>123749161036783941</EntityId>
                               <Min x="-6" y="6" z="11" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24139,7 +24211,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                               <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                              <EntityId>117919033569047883</EntityId>
+                              <EntityId>99863541903299816</EntityId>
                               <Min x="-2" y="6" z="-8" />
                               <BlockOrientation Forward="Forward" Up="Left" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24167,7 +24239,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
                               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-                              <EntityId>143650894801951017</EntityId>
+                              <EntityId>80313973904884958</EntityId>
                               <Min x="-7" y="7" z="-3" />
                               <BlockOrientation Forward="Up" Up="Backward" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -24253,7 +24325,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>122208362381313096</EntityId>
+                              <EntityId>136103988109444587</EntityId>
                               <Min x="-6" y="6" z="12" />
                               <BlockOrientation Forward="Down" Up="Backward" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24332,7 +24404,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                               <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                              <EntityId>139397218107719859</EntityId>
+                              <EntityId>131401393508851655</EntityId>
                               <Min x="-4" y="8" z="-5" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                               <ComponentContainer>
@@ -24369,7 +24441,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                               <SubtypeName>SmallBlockConveyorConverter</SubtypeName>
-                              <EntityId>94831232396760778</EntityId>
+                              <EntityId>117298077066452588</EntityId>
                               <Min x="-7" y="6" z="-4" />
                               <BlockOrientation Forward="Backward" Up="Right" />
                               <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -24518,7 +24590,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                               <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                              <EntityId>94540310695643878</EntityId>
+                              <EntityId>114220020320658578</EntityId>
                               <Min x="-10" y="6" z="-8" />
                               <BlockOrientation Forward="Forward" Up="Right" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -24866,7 +24938,7 @@ Group "Construction Welders"</Text>
                             </MyObjectBuilder_CubeBlock>
                             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
                               <SubtypeName>DBSmallBlockFighterCockpit</SubtypeName>
-                              <EntityId>106848307522351695</EntityId>
+                              <EntityId>113874075023389572</EntityId>
                               <Min x="-7" y="6" z="-10" />
                               <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                               <ComponentContainer>
@@ -25223,7 +25295,7 @@ Group "Construction Welders"</Text>
                                     <Item />
                                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                                       <Action>Control</Action>
-                                      <BlockEntityId>91241178049308880</BlockEntityId>
+                                      <BlockEntityId>116935678839456742</BlockEntityId>
                                     </Data>
                                   </Slot>
                                   <Slot>
@@ -25231,7 +25303,7 @@ Group "Construction Welders"</Text>
                                     <Item />
                                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                                       <Action>Control</Action>
-                                      <BlockEntityId>111682191924500658</BlockEntityId>
+                                      <BlockEntityId>82531046307316957</BlockEntityId>
                                     </Data>
                                   </Slot>
                                   <Slot>
@@ -25240,7 +25312,7 @@ Group "Construction Welders"</Text>
                                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                                       <Action>OnOff</Action>
                                       <GridEntityId>0</GridEntityId>
-                                      <BlockEntityId>106848307522351695</BlockEntityId>
+                                      <BlockEntityId>113874075023389572</BlockEntityId>
                                       <GroupName>AH-64 AI Blocks</GroupName>
                                     </Data>
                                   </Slot>
@@ -25249,7 +25321,7 @@ Group "Construction Welders"</Text>
                                     <Item />
                                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                                       <Action>OnOff</Action>
-                                      <BlockEntityId>103222123991923012</BlockEntityId>
+                                      <BlockEntityId>72522548242880085</BlockEntityId>
                                     </Data>
                                   </Slot>
                                   <Slot>
@@ -25258,7 +25330,7 @@ Group "Construction Welders"</Text>
                                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                                       <Action>OnOff</Action>
                                       <GridEntityId>0</GridEntityId>
-                                      <BlockEntityId>106848307522351695</BlockEntityId>
+                                      <BlockEntityId>113874075023389572</BlockEntityId>
                                       <GroupName>AH-64 Thrusters</GroupName>
                                     </Data>
                                   </Slot>
@@ -25951,7 +26023,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BasicMissionBlock">
                       <SubtypeName>SmallBasicMission</SubtypeName>
-                      <EntityId>102631648302588995</EntityId>
+                      <EntityId>93831992641407153</EntityId>
                       <Min x="-6" y="7" z="2" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                       <ComponentContainer>
@@ -26023,7 +26095,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_OffensiveCombatBlock">
                       <SubtypeName>SmallOffensiveCombat</SubtypeName>
-                      <EntityId>81098575953641577</EntityId>
+                      <EntityId>120283223141940210</EntityId>
                       <Min x="-7" y="7" z="2" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                       <ComponentContainer>
@@ -26105,7 +26177,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
                       <SubtypeName>SmallBlockRadioAntenna</SubtypeName>
-                      <EntityId>96068947216279732</EntityId>
+                      <EntityId>98527329148842085</EntityId>
                       <Min x="-6" y="8" z="2" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -26132,7 +26204,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_FlightMovementBlock">
                       <SubtypeName>SmallFlightMovement</SubtypeName>
-                      <EntityId>116170568934602417</EntityId>
+                      <EntityId>126282138864723594</EntityId>
                       <Min x="-5" y="7" z="2" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                       <ComponentContainer>
@@ -26190,7 +26262,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
                       <SubtypeName>SmallAirVent</SubtypeName>
-                      <EntityId>124294423421681563</EntityId>
+                      <EntityId>100033313168097610</EntityId>
                       <Min x="-8" y="6" z="1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26228,7 +26300,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_AirVent">
                       <SubtypeName>SmallAirVent</SubtypeName>
-                      <EntityId>111933982361914782</EntityId>
+                      <EntityId>142799042691623191</EntityId>
                       <Min x="-4" y="6" z="1" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26254,7 +26326,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>138954992378861713</EntityId>
+                      <EntityId>92638227685028743</EntityId>
                       <Min x="-8" y="7" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26286,7 +26358,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>100792137385899663</EntityId>
+                      <EntityId>79552799661357034</EntityId>
                       <Min x="-4" y="7" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26318,7 +26390,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>90499162361516068</EntityId>
+                      <EntityId>103013510475805626</EntityId>
                       <Min x="-5" y="6" z="5" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -26350,7 +26422,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>105320381202726383</EntityId>
+                      <EntityId>72998929190313293</EntityId>
                       <Min x="-7" y="6" z="5" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -26382,7 +26454,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>98037087458329129</EntityId>
+                      <EntityId>135833504278991403</EntityId>
                       <Min x="-8" y="8" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26426,7 +26498,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>98375002521118610</EntityId>
+                      <EntityId>98471916926824632</EntityId>
                       <Min x="-4" y="8" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26458,7 +26530,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>121126199731964326</EntityId>
+                      <EntityId>140465187534379087</EntityId>
                       <Min x="-8" y="9" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26514,7 +26586,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>117312909970793239</EntityId>
+                      <EntityId>109104253693380422</EntityId>
                       <Min x="-4" y="9" z="4" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26606,7 +26678,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>106461662509269888</EntityId>
+                      <EntityId>104671838493244403</EntityId>
                       <Min x="-7" y="8" z="4" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26656,7 +26728,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>113742793639597812</EntityId>
+                      <EntityId>95314686458383376</EntityId>
                       <Min x="-5" y="8" z="4" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26729,7 +26801,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
                       <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-                      <EntityId>99757762451253536</EntityId>
+                      <EntityId>135104748442150912</EntityId>
                       <Min x="-7" y="7" z="0" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -26755,7 +26827,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ShipConnector">
                       <SubtypeName>ConnectorMedium</SubtypeName>
-                      <EntityId>106123676131571667</EntityId>
+                      <EntityId>103377947594102879</EntityId>
                       <Min x="-7" y="5" z="0" />
                       <BlockOrientation Forward="Down" Up="Forward" />
                       <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -26902,7 +26974,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>SmallBlockConveyor</SubtypeName>
-                      <EntityId>87807477611538694</EntityId>
+                      <EntityId>142943616373372396</EntityId>
                       <Min x="-6" y="6" z="-1" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -26924,14 +26996,14 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>SmallBlockConveyor</SubtypeName>
-                      <EntityId>114231203134450895</EntityId>
+                      <EntityId>97151535535170341</EntityId>
                       <Min x="-6" y="7" z="-1" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                       <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                      <EntityId>88548382145376463</EntityId>
+                      <EntityId>109204872844044660</EntityId>
                       <Min x="-7" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -26962,7 +27034,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                       <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                      <EntityId>138387993497188769</EntityId>
+                      <EntityId>104815248974298780</EntityId>
                       <Min x="-6" y="8" z="-1" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -27124,7 +27196,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>72071272667011997</EntityId>
+                      <EntityId>72090343144628060</EntityId>
                       <Min x="-4" y="8" z="0" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27161,7 +27233,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>84114086848762481</EntityId>
+                      <EntityId>95791686032420077</EntityId>
                       <Min x="-10" y="8" z="0" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27216,7 +27288,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CameraBlock">
                       <SubtypeName>SmallCameraBlock</SubtypeName>
-                      <EntityId>108837159846483234</EntityId>
+                      <EntityId>133589186524368702</EntityId>
                       <Min x="-6" y="5" z="-1" />
                       <BlockOrientation Forward="Down" Up="Forward" />
                       <ColorMaskHSV x="0.130555555" y="-0.31" z="0.18" />
@@ -27232,13 +27304,13 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>91934978465960303</EntityId>
+                      <EntityId>109802373175108017</EntityId>
                       <Min x="-6" y="6" z="-2" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
                       <SubtypeName>SmallBlockGyro</SubtypeName>
-                      <EntityId>112245847050169153</EntityId>
+                      <EntityId>134362823524297390</EntityId>
                       <Min x="-7" y="8" z="-1" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -27252,7 +27324,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>127859300413344239</EntityId>
+                      <EntityId>139498975830504041</EntityId>
                       <Min x="-6" y="9" z="-1" />
                       <BlockOrientation Forward="Down" Up="Forward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -27271,7 +27343,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>80203480827335694</EntityId>
+                      <EntityId>81675853769207785</EntityId>
                       <Min x="-4" y="8" z="-1" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27377,7 +27449,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                      <EntityId>129420382110114648</EntityId>
+                      <EntityId>107180964275153989</EntityId>
                       <Min x="-1" y="7" z="-1" />
                       <BlockOrientation Forward="Right" Up="Down" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27389,7 +27461,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>143651074542736331</EntityId>
+                      <EntityId>140355008032645221</EntityId>
                       <Min x="-4" y="8" z="-2" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27426,7 +27498,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>77770986212770182</EntityId>
+                      <EntityId>98944717296715634</EntityId>
                       <Min x="-10" y="8" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27470,20 +27542,20 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>108990364821887435</EntityId>
+                      <EntityId>73160905609596914</EntityId>
                       <Min x="-6" y="6" z="-3" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>115880178776276238</EntityId>
+                      <EntityId>131437876359097607</EntityId>
                       <Min x="-8" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Forward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-                      <EntityId>137254807964126014</EntityId>
+                      <EntityId>83055317175178230</EntityId>
                       <Min x="-6" y="10" z="-1" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
@@ -27501,7 +27573,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>ConveyorTubeSmallT</SubtypeName>
-                      <EntityId>118875780054325910</EntityId>
+                      <EntityId>76821006876459005</EntityId>
                       <Min x="-2" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27514,14 +27586,14 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmallCurved</SubtypeName>
-                      <EntityId>120189420137819727</EntityId>
+                      <EntityId>99006045119264140</EntityId>
                       <Min x="0" y="7" z="-1" />
                       <BlockOrientation Forward="Up" Up="Right" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                      <EntityId>140283265081043087</EntityId>
+                      <EntityId>132460616980215964</EntityId>
                       <Min x="-5" y="12" z="0" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27534,7 +27606,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                      <EntityId>120413985513793445</EntityId>
+                      <EntityId>124248755078643060</EntityId>
                       <Min x="-7" y="12" z="0" />
                       <BlockOrientation Forward="Left" Up="Down" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27615,7 +27687,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>102492819145716018</EntityId>
+                      <EntityId>87407616929564712</EntityId>
                       <Min x="-3" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Forward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27639,7 +27711,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmall</SubtypeName>
-                      <EntityId>107961717724310102</EntityId>
+                      <EntityId>83207757960686173</EntityId>
                       <Min x="-11" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27652,7 +27724,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>131448303504709089</EntityId>
+                      <EntityId>75278324067694003</EntityId>
                       <Min x="-10" y="8" z="-2" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -27701,14 +27773,14 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmallCurved</SubtypeName>
-                      <EntityId>84414777534558759</EntityId>
+                      <EntityId>84004526860185064</EntityId>
                       <Min x="-6" y="10" z="0" />
                       <BlockOrientation Forward="Backward" Up="Down" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
                       <SubtypeName>SmallBlockRemoteControl</SubtypeName>
-                      <EntityId>137251801142060930</EntityId>
+                      <EntityId>123474041004430204</EntityId>
                       <Min x="-6" y="10" z="-2" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                       <ComponentContainer>
@@ -27767,7 +27839,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>88304070050209020</BlockEntityId>
+                              <BlockEntityId>106115836696574338</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27775,7 +27847,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>117812748424792679</BlockEntityId>
+                              <BlockEntityId>117960091925874197</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27783,7 +27855,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>View</Action>
-                              <BlockEntityId>108837159846483234</BlockEntityId>
+                              <BlockEntityId>133589186524368702</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27791,7 +27863,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>OnOff</Action>
-                              <BlockEntityId>107041836732087044</BlockEntityId>
+                              <BlockEntityId>81263901656366959</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27800,7 +27872,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>137251801142060930</BlockEntityId>
+                              <BlockEntityId>123474041004430204</BlockEntityId>
                               <GroupName>AH-64 AI Blocks</GroupName>
                             </Data>
                           </Slot>
@@ -27809,7 +27881,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>OnOff</Action>
-                              <BlockEntityId>114217699691538903</BlockEntityId>
+                              <BlockEntityId>90321854468642808</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27818,7 +27890,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>137251801142060930</BlockEntityId>
+                              <BlockEntityId>123474041004430204</BlockEntityId>
                               <GroupName>AH-64 Thrusters</GroupName>
                             </Data>
                           </Slot>
@@ -27836,7 +27908,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>88304070050209020</BlockEntityId>
+                              <BlockEntityId>106115836696574338</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27844,7 +27916,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>117812748424792679</BlockEntityId>
+                              <BlockEntityId>117960091925874197</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27852,7 +27924,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>View</Action>
-                              <BlockEntityId>108837159846483234</BlockEntityId>
+                              <BlockEntityId>133589186524368702</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27861,7 +27933,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>137251801142060930</BlockEntityId>
+                              <BlockEntityId>123474041004430204</BlockEntityId>
                               <GroupName>AH-64 AI Blocks</GroupName>
                             </Data>
                           </Slot>
@@ -27870,7 +27942,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>OnOff</Action>
-                              <BlockEntityId>114217699691538903</BlockEntityId>
+                              <BlockEntityId>90321854468642808</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -27879,7 +27951,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>137251801142060930</BlockEntityId>
+                              <BlockEntityId>123474041004430204</BlockEntityId>
                               <GroupName>AH-64 Thrusters</GroupName>
                             </Data>
                           </Slot>
@@ -27929,14 +28001,14 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>139734063650243230</EntityId>
+                      <EntityId>103062181646195709</EntityId>
                       <Min x="-4" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Forward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
                       <SubtypeName>SmallBlockSmallContainer</SubtypeName>
-                      <EntityId>105074505322842175</EntityId>
+                      <EntityId>88865346992909184</EntityId>
                       <Min x="-5" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -27967,7 +28039,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>80602376378993645</EntityId>
+                      <EntityId>115540094250795967</EntityId>
                       <Min x="-9" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Forward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28037,7 +28109,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>SmallBlockConveyor</SubtypeName>
-                      <EntityId>104179854153655928</EntityId>
+                      <EntityId>75728342161632820</EntityId>
                       <Min x="-6" y="12" z="0" />
                       <BlockOrientation Forward="Right" Up="Down" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -28079,14 +28151,14 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>ConveyorTubeSmallT</SubtypeName>
-                      <EntityId>75132617876612933</EntityId>
+                      <EntityId>112765769224509295</EntityId>
                       <Min x="-10" y="7" z="-1" />
                       <BlockOrientation Forward="Right" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                       <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                      <EntityId>99787278569119596</EntityId>
+                      <EntityId>92192555844725835</EntityId>
                       <Min x="-12" y="6" z="-8" />
                       <BlockOrientation Forward="Forward" Up="Right" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28114,7 +28186,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeDuctSmallCurved</SubtypeName>
-                      <EntityId>127074333143964628</EntityId>
+                      <EntityId>116003913360007627</EntityId>
                       <Min x="-12" y="7" z="-1" />
                       <BlockOrientation Forward="Left" Up="Up" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28139,7 +28211,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Gyro">
                       <SubtypeName>SmallBlockGyro</SubtypeName>
-                      <EntityId>102018026353882595</EntityId>
+                      <EntityId>100425184437199553</EntityId>
                       <Min x="-5" y="8" z="-1" />
                       <BlockOrientation Forward="Backward" Up="Up" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -28205,7 +28277,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
                       <SubtypeName>ConveyorTubeSmall</SubtypeName>
-                      <EntityId>111656196283286358</EntityId>
+                      <EntityId>84330627242979998</EntityId>
                       <Min x="-6" y="11" z="0" />
                       <BlockOrientation Forward="Down" Up="Forward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -28228,7 +28300,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
                       <SubtypeName>AutoCannonTurret</SubtypeName>
-                      <EntityId>117812748424792679</EntityId>
+                      <EntityId>117960091925874197</EntityId>
                       <Min x="-4" y="10" z="-2" />
                       <BlockOrientation Forward="Forward" Up="Right" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28283,7 +28355,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_LargeGatlingTurret">
                       <SubtypeName>AutoCannonTurret</SubtypeName>
-                      <EntityId>88304070050209020</EntityId>
+                      <EntityId>106115836696574338</EntityId>
                       <Min x="-11" y="10" z="-2" />
                       <BlockOrientation Forward="Forward" Up="Left" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28414,7 +28486,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>103531266044891968</EntityId>
+                      <EntityId>91615074123761330</EntityId>
                       <Min x="-6" y="6" z="9" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28548,7 +28620,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>109400313553385795</EntityId>
+                      <EntityId>105338340619492071</EntityId>
                       <Min x="-6" y="6" z="10" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28586,7 +28658,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                       <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                      <EntityId>121963783699780068</EntityId>
+                      <EntityId>85353708910539450</EntityId>
                       <Min x="0" y="6" z="-8" />
                       <BlockOrientation Forward="Forward" Up="Left" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28624,7 +28696,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>100018265949345717</EntityId>
+                      <EntityId>79955419103009031</EntityId>
                       <Min x="-8" y="8" z="-5" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                       <ComponentContainer>
@@ -28665,7 +28737,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>80910538930265103</EntityId>
+                      <EntityId>78231253750202550</EntityId>
                       <Min x="-6" y="6" z="11" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28713,7 +28785,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                       <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                      <EntityId>80781967036681990</EntityId>
+                      <EntityId>129689516371621021</EntityId>
                       <Min x="-2" y="6" z="-8" />
                       <BlockOrientation Forward="Forward" Up="Left" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28741,7 +28813,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
                       <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
-                      <EntityId>114359974190685758</EntityId>
+                      <EntityId>99413144039666043</EntityId>
                       <Min x="-7" y="7" z="-3" />
                       <BlockOrientation Forward="Up" Up="Backward" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -28827,7 +28899,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>134319480281613537</EntityId>
+                      <EntityId>118663674992178327</EntityId>
                       <Min x="-6" y="6" z="12" />
                       <BlockOrientation Forward="Down" Up="Backward" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -28906,7 +28978,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Thrust">
                       <SubtypeName>SmallBlockSmallAtmosphericThrust</SubtypeName>
-                      <EntityId>79843394341012502</EntityId>
+                      <EntityId>100569164962310782</EntityId>
                       <Min x="-4" y="8" z="-5" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                       <ComponentContainer>
@@ -28943,7 +29015,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Conveyor">
                       <SubtypeName>SmallBlockConveyorConverter</SubtypeName>
-                      <EntityId>87346113626821170</EntityId>
+                      <EntityId>114169780744657628</EntityId>
                       <Min x="-7" y="6" z="-4" />
                       <BlockOrientation Forward="Backward" Up="Right" />
                       <ColorMaskHSV x="0" y="-0.8" z="0" />
@@ -29092,7 +29164,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_SmallMissileLauncherReload">
                       <SubtypeName>SmallBlockMediumCalibreGun</SubtypeName>
-                      <EntityId>97949093430381305</EntityId>
+                      <EntityId>105213993520799436</EntityId>
                       <Min x="-10" y="6" z="-8" />
                       <BlockOrientation Forward="Forward" Up="Right" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
@@ -29440,7 +29512,7 @@ Group "Construction Welders"</Text>
                     </MyObjectBuilder_CubeBlock>
                     <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Cockpit">
                       <SubtypeName>DBSmallBlockFighterCockpit</SubtypeName>
-                      <EntityId>86997598870344837</EntityId>
+                      <EntityId>92678145224976351</EntityId>
                       <Min x="-7" y="6" z="-10" />
                       <ColorMaskHSV x="0.525" y="0.15" z="-0.2" />
                       <ComponentContainer>
@@ -29797,7 +29869,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>88304070050209020</BlockEntityId>
+                              <BlockEntityId>106115836696574338</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -29805,7 +29877,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>Control</Action>
-                              <BlockEntityId>117812748424792679</BlockEntityId>
+                              <BlockEntityId>117960091925874197</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -29813,7 +29885,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>View</Action>
-                              <BlockEntityId>108837159846483234</BlockEntityId>
+                              <BlockEntityId>133589186524368702</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -29821,7 +29893,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>OnOff</Action>
-                              <BlockEntityId>107041836732087044</BlockEntityId>
+                              <BlockEntityId>81263901656366959</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -29830,7 +29902,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>86997598870344837</BlockEntityId>
+                              <BlockEntityId>92678145224976351</BlockEntityId>
                               <GroupName>AH-64 AI Blocks</GroupName>
                             </Data>
                           </Slot>
@@ -29839,7 +29911,7 @@ Group "Construction Welders"</Text>
                             <Item />
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                               <Action>OnOff</Action>
-                              <BlockEntityId>114217699691538903</BlockEntityId>
+                              <BlockEntityId>90321854468642808</BlockEntityId>
                             </Data>
                           </Slot>
                           <Slot>
@@ -29848,7 +29920,7 @@ Group "Construction Welders"</Text>
                             <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
                               <Action>OnOff</Action>
                               <GridEntityId>0</GridEntityId>
-                              <BlockEntityId>86997598870344837</BlockEntityId>
+                              <BlockEntityId>92678145224976351</BlockEntityId>
                               <GroupName>AH-64 Thrusters</GroupName>
                             </Data>
                           </Slot>
@@ -30584,14 +30656,14 @@ Group "Construction Welders"</Text>
           <EntityId>101212347200957796</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="9633.0656699270912" y="-10367.577825966495" z="-928.20308640366784" />
-            <Forward x="-0.940383434" y="0.294190317" z="-0.170678288" />
-            <Up x="-0.163505286" y="-0.831062734" z="-0.5316021" />
+            <Position x="9605.6926230520912" y="-11064.788765387144" z="-2133.9149544567972" />
+            <Forward x="-0.924193263" y="0.03778121" z="-0.3800515" />
+            <Up x="-0.165996686" y="0.856454849" z="0.4888048" />
             <Orientation>
-              <X>0.5835554</X>
-              <Y>-0.272257</Y>
-              <Z>0.758283854</Z>
-              <W>-0.101709165</W>
+              <X>0.1639041</X>
+              <Y>0.532080531</Y>
+              <Z>0.211915091</Z>
+              <W>0.803192258</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
@@ -31105,14 +31177,14 @@ Group "Construction Welders"</Text>
           <EntityId>129971516031133793</EntityId>
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <PositionAndOrientation>
-            <Position x="9626.1835898489662" y="-10392.403509560245" z="-947.81063034898034" />
-            <Forward x="0.9404281" y="-0.294133" z="0.170529962" />
-            <Up x="0.16354762" y="0.831087232" z="0.5315507" />
+            <Position x="9597.1682089895912" y="-11038.418648199644" z="-2117.1794054837137" />
+            <Forward x="0.9241681" y="-0.03780365" z="0.3801102" />
+            <Up x="0.165983588" y="-0.8564938" z="-0.488740385" />
             <Orientation>
-              <X>0.101699114</X>
-              <Y>-0.758236349</Y>
-              <Z>-0.272238284</Z>
-              <W>0.5836277</W>
+              <X>0.803218961</X>
+              <Y>0.211883128</Y>
+              <Z>-0.5320586</Z>
+              <W>-0.163885668</W>
             </Orientation>
           </PositionAndOrientation>
           <LocalPositionAndOrientation xsi:nil="true" />
